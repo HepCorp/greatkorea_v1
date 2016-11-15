@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="sql">
+	<!--db접속 테스트 -->
+	<select id="showtable" resultClass="String" remapResults="true">
+	     SELECT * FROM greatkorea_1.test
+    </select>
+</sqlMap>
