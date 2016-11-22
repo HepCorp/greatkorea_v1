@@ -8,7 +8,5 @@
 		  lazyLoadingEnabled="true" 
 		  useStatementNamespaces="true" />
 		  
-		  <!--쿼리xml 파일 추가될때마다 하단 태그 추가 -->
-		  <sqlMap resource="sqlmap/sql/sql.xml" />
-		  <!--<sqlMap resource="sql/sql2.xml" /> -->
+		  <sqlMap resource="sqlmap/sql/visitor.xml" />
 </sqlMapConfig>

@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+
+.bodyWrap {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Header Start */
+.headerWrap {
+	position: fixed;
+	width: 100%;
+	height: 140px;
+	z-index: 10000;
+}
+
+/* Login Start*/
+
+.loginWrap {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #000;
+}
+
+#login {
+	width: 1024px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.loginWrap ul {
+	width: 400px;
+	height: 40px;
+	float: right;
+	line-height: 40px;
+}
+
+.loginWrap ul li {
+	float: right;
+	margin-left: 40px;
+}
+
+.loginWrap ul li:first-child {
+	margin-right: 20px;
+}
+
+.loginWrap ul li:last-child {
+	margin-left: 0;
+}
+
+.loginWrap ul li a {
+	color: #FFF;
+	font-size: 16px;
+}
+
+.loginWrap ul li:last-child a {
+	color: #D8D96D;
+}
+
+/* Login end */
+
+/* Navigation Start */
+
+.topNav {
+	position:fixed;
+	width: 100%;
+	height: 100px;
+	background-color: #FFF;
+	margin-top: 40px;
+}
+
+.navWrap {
+	width: 1024px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.greatkorea_logo {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin: 30px 0 0 10px;
+}
+
+.greatkorea_logo a img {
+	width: 200px;
+	height: 40px;
+}
+
+.navList {
+	width: 650px;
+	height: 100px;
+	float: right;
+}
+
+.nav {
+	width: 650px;
+	height: 56px;
+}
+
+.nav dl {
+	float: right;
+	margin: 22px 0 0 30px;
+}
+
+.nav dl:last-child {
+	margin-left: 0;
+}
+
+.nav dl dt {
+	height: 36px;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+.nav dl dt a:hover {
+	border-bottom: 1px solid #333;
+}
+
+.nav dl dd {
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* Navigation end */
+/* Header end */
+
+
+/* contents Start */
+/* contents Start */
+#middleWrapper {
+   position: absolute;
+   width: 100%;
+   height:970px;
+   background-color: #000;
+}
+
+.pageTitle {
+   position: absolute;
+   width: 100%;
+   height: 170px;
+   margin: 140px auto 0;
+   padding-bottom: 15px;
+   border-bottom: 1px solid #000;
+}
+
+.titleSection {
+   width:1024px;
+   height: 200px;
+   margin: 0 auto;
+   text-align:center;
+}
+
+.titleWrap {
+   position: absolute;
+   width: 1024px;
+   height:170px;
+   margin: 40px auto 0;
+}
+
+.titleWrap h2 {
+   height: 70px;
+   line-height: 70px;
+   font-size: 60px;
+   padding: 0px;
+   text-align: center;
+   color: #333333;
+}
+
+.titleWrap h3 {
+   height: 70px;
+   line-height: 70px;
+   font-size: 60px;
+   padding: 0px;
+   text-align: center;
+   color: #666666;
+}
+
+.contentSection {
+   position: absolute;
+   width: 100%;
+   height: 720px;
+   margin: 330px auto 0;
+}
+
+.contentWrap {
+   width: 1024px;
+   height:720px;
+   margin: 0 auto;
+   text-align: center;
+   color: #FFF;
+}
+
+/* contents end */
+
+

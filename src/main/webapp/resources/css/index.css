@@ -1,0 +1,280 @@
+@CHARSET "UTF-8";
+
+/* main 01 Start */
+/* intro start */
+
+#main01 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-color: #000;
+	margin-top: 140px;
+}
+
+#introTitleSec {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px solid #FFF;
+}
+
+#introTitle {
+   position: absolute;
+   width: 1024px;
+   height:170px;
+   margin: 110px auto 0;
+}
+
+#introTitle h3 {
+	height: 70px;
+   line-height: 70px;
+   font-size: 60px;
+   padding: 0px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+#introConSec {
+	position: absolute;
+   	width: 100%;
+   	height: 720px;
+  	margin: 300px auto 0;
+}
+
+#introCon {
+	width: 1024px;
+   	height:720px;
+   	margin: 0 auto;
+   	text-align: center;
+   	color: #FFF;
+}
+
+#introConSec #introCon h3 {
+	color: #FFF;
+	font-size: 40px;
+	margin-top: 150px;
+}
+/* intro end */
+
+/* intro video start */
+#videoWrap {
+	position: absolute;
+	width: 100%;	
+	margin: 0 auto;
+}
+
+#video {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+#blackpink {
+	width: 100%;
+	height: calc(100vh - 140px);
+	z-index: 9999;
+}
+
+/* intro video end */
+/* main 01 end */
+
+/* main 02 start */
+
+#main02 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-image: url('../img/introduction_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#introductionTitleSec {
+	border-bottom: 1px solid #FFF;
+}
+
+#introductionTitle h2 {
+	color: #FFFFFF;
+}
+
+#introductionTitle h3 {
+	color: #DFDFDF;
+}
+
+#introductionConSec {
+	position: absolute;
+   	width: 100%;
+   	height: 720px;
+  	margin: 40px auto 0;
+}
+
+#introductionCon {
+	width: 1024px;
+   	height:720px;
+   	margin: 0 auto;
+   	text-align: center;
+   	color: #FFF;
+}
+
+#hepBox {
+	width: 1024px;
+	height: 500px;
+	padding: 25px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* display: none; */
+}
+
+#hepIntro {
+	width: 1024px;
+	height: 500px;
+}
+
+#hepCi {
+	width: 1024px;
+	height:172px;
+}
+
+#hepCi img {
+	width:200px;
+	height: 172px;
+}
+
+#hepDetail {
+	width: 1024px;
+	height: 288px;
+	margin: 40px auto 0;
+}
+
+#hepTextBox {
+	width: 650px;
+	height: 288px;
+	margin: 0 auto;
+}
+
+#hepTextBox p {
+	color: #FFF;
+	font-size: 16px;
+	text-align: left;
+	font-family: HelveticaLT;
+}
+
+#hepTextBox b {
+	color: #FFF;
+	font-size: 18px;
+	text-align: left;
+	font-family: HelveticaMd;
+}
+
+#greatkoreaBox {
+	width: 1024px;
+	height: 450px;
+	padding: 50px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+#greatkoreaIntro {
+	width: 1024px;
+	height: 500px;
+}
+
+#greatkoreaCi {
+	width: 1024px;
+	height:56px;
+}
+
+#greatkoreaCi img {
+	width:360px;
+	height: 56px;
+}
+
+#greatkoreaDetail {
+	width: 1024px;
+	height: 288px;
+	margin: 40px auto 0;
+}
+
+#greatkoreaTextBox {
+	width: 650px;
+	height: 288px;
+	margin: 0 auto;
+}
+
+#greatkoreaTextBox p {
+	color: #FFF;
+	font-size: 18px;
+	text-align: left;
+	font-family: HelveticaMd;
+}
+
+#bannerBox {
+	position: absolute;
+	width: 1024px;
+	height: 450px;
+	padding: 50px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+#introBanner {
+	position: absolute;
+	width: 1024px;
+	height: 500px;
+}
+
+#banner01 {
+	width:512px;
+	height: 300px;
+	float:left;
+}
+
+#bannerImg01 {
+	width: 512px;
+	height: 190px;
+	margin-bottom: 40px;
+}
+
+#bannerImg01 img {
+	width: 300px;
+	height: 190px;
+}
+
+#bannerDetail01 {
+	width: 512px;
+	height: 70px;
+}
+
+#bannerDetail01 p {
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: HelveticaMd;
+}
+
+#banner02 {
+	width: 512px;
+	height: 300px;
+	float: right;
+}
+
+#bannerImg02 {
+	width: 512px;
+	height: 190px;
+	margin-bottom: 40px;
+}
+
+#bannerImg02 img {
+	width: 300px;
+	height: 190px;
+}
+
+#bannerDetail02 {
+	width: 512px;
+	height: 70px;
+}
+
+#bannerDetail02 p {
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: HelveticaMd;
+}
+
+/* main 02 end */

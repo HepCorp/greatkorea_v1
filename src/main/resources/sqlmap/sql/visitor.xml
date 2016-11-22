@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="visitor">
+	<typeAlias alias="hashMap" type="java.util.HashMap" />
+	<typeAlias alias="visitorVO" type="co.greatkorea.www.visitor.service.VisitorVO" />
+	
+
+	<select id="selectAll" resultClass="visitorVO" parameterClass="hashMap" remapResults="true">
+		<![CDATA[
+		SELECT A.VISITOR_NO
+		     , A.CONTENTS
+		     , A.WRITE_ID
+		     , A.MEMBER_NO
+		     , A.INPUT_DT
+		  FROM greatkorea_1.gk_visitor A
+		 WHERE A.DEL_YN = 0
+		 ORDER BY A.VISITOR_NO DESC
+		 LIMIT #start_no#, #end_no#		
+		]]>
+    </select>
+    <select id="selectTot" resultClass="int">
+    	<![CDATA[
+    	SELECT COUNT(*)
+    	  FROM greatkorea_1.gk_visitor A
+    	 WHERE A.DEL_YN = 0
+    	]]>
+    </select>
+    <select id="select" resultClass="visitorVO">
+		<![CDATA[
+		SELECT A.VISITOR_NO
+		     , A.CONTENTS
+		     , A.WRITE_ID
+		     , A.MEMBER_NO
+		     , A.INPUT_DT
+		  FROM greatkorea_1.gk_visitor A
+		 WHERE A.DEL_YN = 0
+		   AND A.VISITOR_NO = #visitor_no#
+		 ORDER BY A.VISITOR_NO DESC		
+		]]>    
+    </select>
+    <insert id="insert" parameterClass="visitorVO">
+    	<![CDATA[
+		INSERT INTO `greatkorea_1`.`gk_visitor` (
+			   `CONTENTS`
+			 , `WRITE_ID`
+		     , `MEMBER_NO`
+		     , 'INPUT_IP'
+		) VALUES (
+			   #contents#
+		     , #write_id#
+		     , #member_no#
+		     , #input_ip#
+		)    	
+    	]]>
+    </insert>
+    <update id="update" parameterClass="visitorVO">
+    	<![CDATA[
+		UPDATE `greatkorea_1`.`gk_visitor` SET 
+			   `CONTENTS`=#contents#
+			 , 'INPUT_IP'=#input_ip#
+			 , 'LAST_DT'=now()
+		 WHERE `VISITOR_NO`=#visitor_no#    	
+    	]]>
+    </update>
+    <update id="delete" parameterClass="visitorVO">
+    	<![CDATA[
+		UPDATE `greatkorea_1`.`gk_visitor` SET 
+			   `DEL_YN`='1' 
+		 WHERE `VISITOR_NO`=#visitor_no#    	
+    	]]>    
+    </update>
+</sqlMap>
