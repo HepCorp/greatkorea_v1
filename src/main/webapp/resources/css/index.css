@@ -1,0 +1,734 @@
+@CHARSET "UTF-8";
+
+/* main Start */
+/* intro start */
+
+#middleWrapper{
+	width:100%;
+	height:100%;
+}
+
+#main01 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-color: #000;
+	margin-top: 140px;
+}
+
+#introTitleSec {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px solid #FFF;
+}
+
+#introTitle {
+   position: absolute;
+   width: 1024px;
+   height:170px;
+   margin: 110px auto 0;
+}
+
+#introTitle h3 {
+	height: 70px;
+   line-height: 70px;
+   font-size: 60px;
+   padding: 0px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+#introConSec {
+	position: absolute;
+   	width: 100%;
+   	height: 720px;
+  	margin: 300px auto 0;
+}
+
+#introCon {
+	width: 1024px;
+   	height:720px;
+   	margin: 0 auto;
+   	text-align: center;
+   	color: #FFF;
+}
+
+#introConSec #introCon h3 {
+	color: #FFF;
+	font-size: 40px;
+	margin-top: 150px;
+}
+/* intro end */
+
+/* intro video start */
+#videoWrap {
+	position: absolute;
+	width: 100%;	
+	margin: 0 auto;
+}
+
+#video {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+#blackpink {
+	width: 100%;
+	height: calc(100vh - 140px);
+	z-index: 9999;
+}
+
+/* intro video end */
+/* main end */
+
+/* introduction start */
+
+#main02 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-image: url('/greatkorea_html_v1/img/introduction_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#introductionTitleSec {
+	border-bottom: 1px solid #FFF;
+}
+
+#introductionTitle h2 {
+	color: #FFFFFF;
+}
+
+#introductionTitle h3 {
+	color: #DFDFDF;
+}
+
+#introductionConSec {
+	/* position: absolute; */
+   	width: 100%;
+   	height: 720px;
+  	margin: 40px auto 0;
+}
+
+#introductionCon {
+	width: 1024px;
+   	height:720px;
+   	margin: 0 auto;
+   	text-align: center;
+   	color: #FFF;
+}
+
+.owl-wrapper {
+	width: 1024px;
+	left:0;
+	display: block;
+	transition: all 800ms ease;
+	trasform: translate3d(0px, 0px, 0px);
+}
+
+.owl-item {
+	width: 1024px;
+}
+
+#hepBox {
+	width: 1024px;
+	height: 500px;
+	padding: 25px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* display: none; */
+}
+
+#hepIntro {
+	width: 1024px;
+	height: 500px;
+}
+
+#hepCi {
+	width: 1024px;
+	height:172px;
+}
+
+#hepCi img {
+	width:200px;
+	height: 172px;
+}
+
+#hepDetail {
+	width: 1024px;
+	height: 288px;
+	margin: 40px auto 0;
+}
+
+#hepTextBox {
+	width: 650px;
+	height: 288px;
+	margin: 0 auto;
+}
+
+#hepTextBox p {
+	color: #FFF;
+	font-size: 16px;
+	text-align: left;
+	font-family: HelveticaLT;
+}
+
+#hepTextBox b {
+	color: #FFF;
+	font-size: 18px;
+	text-align: left;
+	font-family: HelveticaMd;
+}
+
+#greatkoreaBox {
+	width: 1024px;
+	height: 450px;
+	padding: 50px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+#greatkoreaIntro {
+	width: 1024px;
+	height: 500px;
+}
+
+#greatkoreaCi {
+	width: 1024px;
+	height:56px;
+}
+
+#greatkoreaCi img {
+	width:360px;
+	height: 56px;
+}
+
+#greatkoreaDetail {
+	width: 1024px;
+	height: 288px;
+	margin: 40px auto 0;
+}
+
+#greatkoreaTextBox {
+	width: 650px;
+	height: 288px;
+	margin: 0 auto;
+}
+
+#greatkoreaTextBox p {
+	color: #FFF;
+	font-size: 18px;
+	text-align: left;
+	font-family: HelveticaMd;
+}
+
+#bannerBox {
+	position: absolute;
+	width: 1024px;
+	height: 450px;
+	padding: 50px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+#introBanner {
+	position: absolute;
+	width: 1024px;
+	height: 500px;
+}
+
+#banner01 {
+	width:512px;
+	height: 300px;
+	float:left;
+}
+
+#bannerImg01 {
+	width: 512px;
+	height: 190px;
+	margin-bottom: 40px;
+}
+
+#bannerImg01 img {
+	width: 300px;
+	height: 190px;
+}
+
+#bannerDetail01 {
+	width: 512px;
+	height: 70px;
+}
+
+#bannerDetail01 p {
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: HelveticaMd;
+}
+
+#banner02 {
+	width: 512px;
+	height: 300px;
+	float: right;
+}
+
+#bannerImg02 {
+	width: 512px;
+	height: 190px;
+	margin-bottom: 40px;
+}
+
+#bannerImg02 img {
+	width: 300px;
+	height: 190px;
+}
+
+#bannerDetail02 {
+	width: 512px;
+	height: 70px;
+}
+
+#bannerDetail02 p {
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: HelveticaMd;
+}
+
+
+
+
+/* introduction end */
+
+/* division start */
+
+#main03 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-image: url('/greatkorea_html_v1/img/division_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#divisionTitleSec {
+	border-bottom: 1px solid #FFF;
+}
+
+#divisionTitle h2 {
+	color: #FFFFFF;
+}
+
+#divisionTitle h3 {
+	color: #DFDFDF;
+}
+
+#divisionConSec {
+	/* position: absolute; */
+   	width: 100%;
+   	height: 720px;
+  	margin: 40px auto 0;
+}
+
+#divisionCon {
+	width: 1024px;
+   	height:720px;
+   	margin: 0 auto;
+   	text-align: center;
+   	color: #FFF;
+}
+
+#divisionBox {
+	width: 1024px;
+	height: 550px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#divisionGrid {
+	width: 1024px;
+	height: 550px;
+}
+
+#divisionGrid img{
+	width: 1024px;
+	height:550px;
+}
+
+/* division end */
+
+/* greeting start */
+
+#main04 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-image: url('/greatkorea_html_v1/img/greeting_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#greetingTitleSec {
+	border-bottom: 1px solid #FFF;
+}
+
+#greetingTitle h2 {
+	color: #333333;
+}
+
+#greetingTitle h3 {
+	color: #666666;
+}
+
+#greetingConSec {
+	/* position: absolute; */
+   	width: 100%;
+   	height: 720px;
+  	margin: 40px auto 0;
+}
+
+#greetingCon {
+	width: 1024px;
+   	height:720px;
+   	margin: 0 auto;
+   	text-align: center;
+   	color: #FFF;
+}
+
+#greetingBox {
+	width: 974px;
+	height: 500px;
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#greeting01 {
+	width: 487px;
+	height: 500px;
+	float:left;
+}
+
+#greetingArticle01 {
+	width: 487px;
+	height: 280px;
+	text-align: left;
+	border-bottom: 1px solid #FFF;
+}
+
+#greetingArticle01 p {
+	color: #FFF;
+	font-size: 16px;
+}
+
+#greetingArticle01 h6 {
+	color: #FFF;
+	font-size: 18px;
+}
+
+#greetingArticle02 {
+	width: 487px;
+	height: 220px;
+	text-align: left;
+	overflow: hidden;
+}
+
+#greetingArticle02 h3 {
+	color: #FFD800;
+	font-size: 24px;
+}
+
+#greetingArticle02 p {
+	color: #FFF;
+	font-size: 14px;
+}
+
+#greetingArticle02 p b {
+	color: #FFF;
+	font-size: 16px;
+}
+
+#greeting02 {
+	width: 487px;
+	height: 500px;
+	float: right;
+}
+
+#campaign {
+	width: 487px;
+	height: 277px;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+#campaign img {
+	width: 300px;
+	height: 277px;
+	margin-right: 100px;
+}
+
+#ceo {
+	position: absolute;
+	width: 320px;
+	height: 45px;
+	line-height: 45px;
+	margin-top: 80px;
+	margin-left:80px;
+	
+}
+
+#ceo p {
+	color: #FFF;
+	font-size: 12px;
+	float: left;
+}
+
+#sign {
+	position: absolute;
+	width: 112px;
+	height: 45px;
+	float: right;
+	margin-left: 200px;
+	z-index: 301;
+}
+
+#sign img {
+	width: 112px;
+	height: 45px;
+}
+
+#ceoCha {
+	position: absolute;
+	width: 400px;
+	height: 390px;
+	margin-top: 135px;
+	margin-left: 228px;
+	margin-right: 50px;
+	overflow: hidden;
+}
+
+#ceoCha img {
+	width: 279px;
+	height: 524px;
+	z-index: 300;
+}
+
+
+/* greeting end */
+
+/* media report start */
+
+#main05 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-image: url('/greatkorea_html_v1/img/media_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mediaTitleSec {
+	border-bottom: 1px solid #000;
+}
+
+#mediaTitle h2 {
+	color: #333333;
+}
+
+#mediaTitle h3 {
+	color: #666666;
+}
+
+#mediaConSec {
+	/* position: absolute; */
+   	width: 100%;
+   	height: 720px;
+  	margin: 40px auto 0;
+}
+
+#mediaCon {
+	width: 1024px;
+   	height:720px;
+   	margin: 0 auto;
+   	text-align: center;
+   	color: #FFF;
+}
+
+#mediaBox {
+	width: 1024px;
+	height: 550px;
+}
+#newsContents {
+	width: 1024px;
+	height:550px;
+}
+
+.newsBox {
+	width: 984px;
+	height: 130px;
+	padding: 20px;
+	background-color: #FFF;
+}
+
+#newsBox01 {
+	margin-bottom: 20px;
+}
+
+.newsDetail {
+	width: 984px;
+	height: 130px;
+	text-align: left;
+}
+
+.newsImgWrap {
+	width: 322px;
+	height: 130px;
+	margin-right: 20px;
+	float: left;
+}
+
+.newsImg {
+	width: 322px;
+	height: 130px;
+}
+
+.newsPreview {
+	width: 642px;
+	height: 130px;
+	float: right;
+}
+
+.newsPreview br {
+	display: block;
+    content: "";
+    margin-top: 5px;
+}
+
+.newsPreview h3 {
+	font-size: 14px;
+}
+
+.articleSub {
+	font-size: 12px;
+	color: #666666;
+	line-height: 12px;
+}
+
+.articleCon {
+	font-size: 12px;
+	color: #333333;
+	line-height: 14px;
+}
+
+.articleDate {
+	font-size: 12px;
+	color: #333333;
+	float: left;
+}
+
+.newsPreview div a {
+	font-size: 12px;
+	color: #F00;
+	float: right;
+}
+
+
+#newsBox02 {
+	margin-bottom: 20px;
+}
+/* media report end */
+
+/* partner start */
+
+#main06 {
+	width: 100%;
+	height: calc(100vh - 140px);
+	background-image: url('/greatkorea_html_v1/img/partner_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.category .mediaTitleSec{
+	border-bottom: 1px solid #9c9c9c;	
+}
+
+.category .mediaTitleSec .titleSection .titleWrap h2,
+.category .mediaTitleSec .titleSection .titleWrap h3{
+	color:#9c9c9c;
+}
+
+.category .partenr_div{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:70px;
+}
+
+.category .partenr_div ul:after{
+	content:"";
+	display:block;
+	clear:both;
+	width:100%;
+}
+
+.category .partenr_div ul li{
+	float:left;
+	height:50px;
+	width:25%;
+	display:inline;
+	margin-top:80px;
+}
+
+/* partner end */
+
+/* footer start */
+
+#footer{
+	width:100%;
+	height:140px;
+	margin:0 auto;
+	background-color: #fff;
+}
+
+#footer .footer_inner{
+	margin:0 auto;
+	width:1024px;
+}
+
+#footer .footer_inner address{
+	float:left;
+	width:1024px;
+	height:30px;
+	margin-top:20px;
+	font-style:normal;
+}
+
+#footer .footer_inner p:nth-of-type(1){
+	float:left;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+#footer .footer_inner p{
+	float:left;
+}
+
+#footer .footer_inner ul{
+	float:right;
+}
+
+#footer .footer_inner ul li:nth-of-type(3){
+	font-weight:bold;
+}
+
+#footer .footer_inner ul li{
+	display:inline;
+	margin-right:10px;
+}
+
+/* footer end */
+
+
+
+
+
+

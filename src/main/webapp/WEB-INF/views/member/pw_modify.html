@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../css/pw_modify.css" />
+</head>
+<body>
+	<div class="modify_div">
+		<p class="close"><a href="#"><img src="/greatkorea_html_v1/img/close_btn.png"alt="close" /></a></p>
+		<div class="modify_inner">
+			<h1>비밀번호 변경</h1>
+			<p>영문,특수문자,숫자 조합 8~20</p>
+			 <ul>
+				<li>
+					<input id="UserPwd" name="UserPwdPwd" placeholder="기존 비밀번호" maxlength="20" type="text" class="input_box">
+                    <span class="fc_red" style="display:none;">기존 비밀번호와 일치하지 않습니다.</span>
+	       		</li>
+	       		<li>
+	       			<input id="UserPwd" name="UserPwdPwd" placeholder="새 비밀번호" maxlength="20" type="text" class="input_box">
+	       			<span class="fc_red" style="display:none;">사용할 수 없는 비밀번호 입니다.</span>
+	       		</li>
+	       		<li>
+	       			<input id="UserPwd" name="UserPwdPwd" placeholder="비밀번호 확인" maxlength="20" type="text" class="input_box">
+	       			<span class="fc_red" style="display:;">비밀번호가 일치하지 않습니다.</span>
+	       		</li>
+			 </ul>
+			 <button type="button" class="btn">비밀번호 변경</button>
+		 </div>
+	</div>
+</body>
+</html>
