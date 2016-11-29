@@ -1,5 +1,6 @@
 package co.greatkorea.www.visitor.service;
 
+import java.util.HashMap;
 import java.util.List;
 
 public interface VisitorService {
@@ -9,7 +10,7 @@ public interface VisitorService {
 	 * @return VisitorVO
 	 * @exception Exception
 	 */
-	public List<VisitorVO> selectAll(VisitorVO vo) throws Exception;
+	public List<VisitorVO> selectAll(HashMap<String, Integer> page) throws Exception;
 	
 	/**
 	 * ¹æ¸í·Ï ¸ñ·Ï ÃÑ°¹¼ö

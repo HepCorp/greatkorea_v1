@@ -134,14 +134,18 @@
 					      </fieldset>
 					   </form>
 					</div>
-					
+					${fn:length(visitorList) }
+					<c:if test="${fn:length(visitorList) != 0 }">
+					<c:forEach var="visitor" items="${visitorList }" varStatus="status">
 					<div class="yellow">
-					   <p>Apple is an American multinational technology company headquartered  computer, the iPod portable media player, the Apple Watch smartwatch, and the Apple TV digital media player. Apple's consumer software includes the macOS and iOS operating systems, the iTunes media player, the Safari web browser, and the iLife and iWork creativity and productivity suites. Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud.</p>
+					   <p>${visitor.contents }</p>
 					      <ul>
-					         <li>kimleooo123 &nbsp;&nbsp;&nbsp;| &nbsp;</li>
-					         <li>2016-11-09</li>
+					         <li>${visitor.write_id } &nbsp;&nbsp;&nbsp;| &nbsp;</li>
+					         <li>${fn:input_dt }</li>
 					      </ul>
 					</div>
+					</c:forEach>
+					</c:if>
 					
 					<div class="pink">
 					   <p>Apple is an American mulelops, and sells consumer electronics, computer software, and online services. Its hardware products include the iPhone smartphone, the iPad tablet computer, the Mac personal computer, the iPod portable media player, the Apple Watch smartwatch, and the Apple TV digital media player. Apple's consumer software includes the macOS and iOS operating systems, the iTunes media player, the Safari web browser, and the iLife and iWork creativity and productivity suites. Its online services include the iTunes Store, the iOS App Store and Mac App Store, Apple Music, and iCloud.</p>

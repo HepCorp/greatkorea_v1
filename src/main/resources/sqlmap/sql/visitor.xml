@@ -2,11 +2,10 @@
 <!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
 
 <sqlMap namespace="visitor">
-	<typeAlias alias="hashMap" type="java.util.HashMap" />
 	<typeAlias alias="visitorVO" type="co.greatkorea.www.visitor.service.VisitorVO" />
 	
 
-	<select id="selectAll" resultClass="visitorVO" parameterClass="hashMap" remapResults="true">
+	<select id="selectAll" resultClass="visitorVO" parameterClass="java.util.HashMap" remapResults="true">
 		<![CDATA[
 		SELECT A.VISITOR_NO
 		     , A.CONTENTS
@@ -16,7 +15,7 @@
 		  FROM greatkorea_1.gk_visitor A
 		 WHERE A.DEL_YN = 0
 		 ORDER BY A.VISITOR_NO DESC
-		 LIMIT #start_no#, #end_no#		
+		 LIMIT #start_no#, #end_no#
 		]]>
     </select>
     <select id="selectTot" resultClass="int">
