@@ -1,4 +1,4 @@
-package co.greatkorea.www;
+package co.greatkorea.www.comm;
 
 public class CommonPaging {
 	private int pageSize; // 게시 글 수
@@ -10,6 +10,24 @@ public class CommonPaging {
 	private int nextPageNo; // 다음 페이지 번호
 	private int finalPageNo; // 마지막 페이지 번호
 	private int totalCount; // 게시 글 전체 수
+	private int startNo;
+	private int endNo;
+
+	public int getStartNo() {
+		return startNo;
+	}
+
+	public void setStartNo(int startNo) {
+		this.startNo = startNo;
+	}
+
+	public int getEndNo() {
+		return endNo;
+	}
+
+	public void setEndNo(int endNo) {
+		this.endNo = endNo;
+	}
 
 	/**
 	 * @return the pageSize
@@ -224,6 +242,9 @@ public class CommonPaging {
 		}
 
 		this.setFinalPageNo(finalPage); // 마지막 페이지 번호
+		
+		setStartNo((this.pageNo-1)*this.pageSize);
+		setEndNo(this.pageNo*this.pageSize);
 	}
 
 	// @Override

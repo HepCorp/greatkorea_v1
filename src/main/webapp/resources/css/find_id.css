@@ -131,9 +131,8 @@
 
 /* contents Start */
 #middleWrapper {
-   position: absolute;
    width: 100%;
-   height:1800px;
+   height:1000px;
    background-color: #f0f0f0;
 }
 
@@ -187,11 +186,12 @@
 
 .contentWrap {
    width: 1024px;
-   height:1400px;
+   height:300px;
    margin: 40px auto;
    text-align: center;
-   background-color: #FFF;
+
 }
+
 /* form_join start */
 
 .form_join{
@@ -206,9 +206,8 @@
 	font-size:12px;
 }
 
-.form_join .fc_sky{
-	color:blue;
-	font-size:12px;
+.form_join ul li{
+	margin-bottom:20px;
 }
 
 .form_join ul li .input_box,.form_join ul li .email-direct{
@@ -218,7 +217,7 @@
     margin:5px 0;
 	border:1px solid #ccc;
 }
-.form_join ul li .email-area .emailId{
+.form_join ul li .email-area .email-id{
    float:left;
    width:285px;
    height:60px;
@@ -235,6 +234,7 @@
    border:1px solid #ccc;
    border-left:0;
    border-right:0;
+   background-color:#fff;
 }
 .form_join ul li .email-area .selectbox select{
    float:right;
@@ -243,61 +243,10 @@
    border:1px solid #ccc;
    box-sizing:border-box;
 }
-.form_join ul li .email-area .agr_txt{
-   text-align:right;
-   vertical-align:top;
-}
-.form_join ul li .email-area .chk-round{
-	display:inline-block;
-	width:10px;
-	vertical-align:middle;
-	margin-left:10px;
-}
 
-.form_join .userPw2{
+
+.form_join .Pw2{
 	margin-top:30px;
-}
-
-.form_join .agree h2{
-	margin-bottom:10px;
-	font-size:16px;
-}
-
-.form_join .agree p{
-	text-align:right;
-}
-.form_join .agree p .chk-round{
-	display:inline-block;
-	width:10px;
-	vertical-align:middle;
-	margin-left:10px;
-}
-
-.form_join .agree section{
-	padding:20px;
-	border:1px solid #ccc;
-}
-
-.form_join .agree section .text{
-	width:100%;
-	height:200px;
-}
-
-.form_join .agree section .text ul{
-	height:200px;
-	width:100%;
-	overflow: auto;
-	font-size:12px;
-	text-align:left;
-}
-
-.form_join .agree section .text span{
-	font-weight:bold;
-	font-size:15px;
-}
-
-.form_join .agree .agr_txt3{
-	font-size:20px;
 }
 
 .form_join .btn_center{
@@ -305,7 +254,7 @@
 	font-weight:bold;
 }
 
-.form_join .btn_center .submit{
+.form_join .btn_center .btn1{
 	float:left;
 	border:none;
 	display:inline-block;
@@ -318,7 +267,7 @@
 	cursor:pointer;
 }
 
-.form_join .btn_center .cancel{
+.form_join .btn_center .btn2{
 	float:right;
 	display:inline-block;
 	width:130px;
@@ -332,16 +281,22 @@
 	cursor:pointer;
 }
 /* form_join end */
+
+/* contents end */
+
 /* footer start */
 
 #footer{
+	clear:both;
 	width:100%;
 	height:140px;
 	margin:0 auto;
 	background-color: #fff;
+
 }
 
 #footer .footer_inner{
+	height:140px;
 	margin:0 auto;
 	width:1024px;
 }
@@ -357,7 +312,8 @@
 #footer .footer_inner p:nth-of-type(1){
 	float:left;
 	font-weight:bold;
-	margin-top:20px;
+	margin-top:30px;
+	
 }
 
 #footer .footer_inner p{
@@ -378,4 +334,3 @@
 }
 
 /* footer end */
-/* contents end */

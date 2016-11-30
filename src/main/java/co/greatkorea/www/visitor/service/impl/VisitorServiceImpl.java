@@ -1,5 +1,6 @@
 package co.greatkorea.www.visitor.service.impl;
 
+import java.util.HashMap;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -23,8 +24,8 @@ public class VisitorServiceImpl implements VisitorService {
 	 * @exception Exception
 	 */
 	@Override
-	public List<VisitorVO> selectAll(VisitorVO vo) throws Exception {
-		return dao.selectAll();
+	public List<VisitorVO> selectAll(HashMap<String, Object> limit) throws Exception {
+		return dao.selectAll(limit);
 	}
 
 	/**
@@ -34,8 +35,8 @@ public class VisitorServiceImpl implements VisitorService {
 	 * @exception Exception
 	 */
 	@Override
-	public int selectTot() throws Exception {
-		return dao.selectTot();
+	public int selectTot(String searchStr) throws Exception {
+		return dao.selectTot(searchStr);
 	}
 
 }

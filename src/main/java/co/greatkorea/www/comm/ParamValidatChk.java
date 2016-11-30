@@ -1,4 +1,4 @@
-package co.greatkorea.www;
+package co.greatkorea.www.comm;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
