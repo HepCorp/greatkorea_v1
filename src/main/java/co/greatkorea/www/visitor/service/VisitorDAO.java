@@ -22,4 +22,8 @@ public class VisitorDAO {
 	public int selectTot(String searchStr) throws SQLException{
 		return (Integer) sql.queryForObject("visitor.selectTot", searchStr);
 	}
+
+	public int insert(VisitorVO visitor) throws SQLException {
+		return (Integer) sql.insert("visitor.insert", visitor);
+	}
 }

@@ -1,5 +1,6 @@
 package co.greatkorea.www.visitor.service;
 
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 
@@ -19,4 +20,13 @@ public interface VisitorService {
 	 * @exception Exception
 	 */
 	public int selectTot(String searchStr) throws Exception;
+
+	/**
+	 * 방명록 저장
+	 * @param vo - VisitorVO
+	 * @return int
+	 * @throws SQLException 
+	 * @exception Exception
+	 */
+	public int insert(VisitorVO visitor) throws SQLException;
 }

@@ -1,5 +1,6 @@
 package co.greatkorea.www.visitor.service.impl;
 
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 
@@ -37,6 +38,15 @@ public class VisitorServiceImpl implements VisitorService {
 	@Override
 	public int selectTot(String searchStr) throws Exception {
 		return dao.selectTot(searchStr);
+	}
+
+	@Override
+	public int insert(VisitorVO visitor) throws SQLException {
+		int row = dao.insert(visitor);
+		if (row != 1){
+			throw new NullPointerException();
+		}
+		return row;
 	}
 
 }

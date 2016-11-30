@@ -1,7 +1,9 @@
 package co.greatkorea.www.visitor.web;
 
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -60,9 +62,27 @@ public class VisitorController extends ParamValidatChk {
 	}
 	
 	@RequestMapping(value="/save.do")
-	public String visitorSave(@RequestParam(value="contents", required=true) String contents, ModelMap model){
+	public String visitorSave(@RequestParam(value="contents", required=true) String contents, ModelMap model) throws SQLException{
 		//contents 유효성검사
-//		contents = 
+		contents = getParam(contents);
+		if (isEmpty(contents)){
+			//에러 표시하기
+			return "/visitor/index";
+		}
+		
+		String colors[] = {"yellow", "orange", "pink", "blue", "green"};
+		Random ran = new Random();
+		int r_num = ran.nextInt(5);
+		
+		VisitorVO visitor = new VisitorVO();
+		visitor.setContents(contents);
+		visitor.setColor(colors[r_num]);
+		visitor.setInput_ip("111.111.111.111");
+		visitor.setMember_no(1);
+		visitor.setWrite_id("rai007");
+		
+		int row = service.insert(visitor);
+		//성공
 		
 		return "/visitor/index";
 	}
