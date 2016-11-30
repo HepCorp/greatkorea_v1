@@ -23,8 +23,8 @@ public class VisitorController {
 		int rowTot = service.selectTot();
 		CommonPaging paging = new CommonPaging();
 		paging.setTotalCount(rowTot);
-		HashMap<String, int> page = new HashMap<String, int>();
-		page.put("start_no", paging.get)
+//		HashMap<String, int> page = new HashMap<String, int>();
+//		page.put("start_no", paging.get)
 		
 		return "/visitor/index";
 	}
