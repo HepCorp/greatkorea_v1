@@ -62,7 +62,9 @@ public class VisitorController extends ParamValidatChk {
 	}
 	
 	@RequestMapping(value="/save.do")
-	public String visitorSave(@RequestParam(value="contents", required=true) String contents, ModelMap model) throws SQLException{
+	public String visitorSave(
+			  @RequestParam(value="contents", required=true) String contents
+			, ModelMap model) throws SQLException{
 		//contents 유효성검사
 		contents = getParam(contents);
 		if (isEmpty(contents)){
@@ -83,6 +85,20 @@ public class VisitorController extends ParamValidatChk {
 		
 		int row = service.insert(visitor);
 		//성공
+		
+		return "/visitor/index";
+	}
+	
+	public String visitorDel(
+			  @RequestParam(value="no", required=true) String no_str
+			, @RequestParam(value="page", required=false, defaultValue="1") String page
+			, ModelMap model){
+		//no 유효성 검사
+		no_str = getParam(no_str);
+		if (isEmpty(no_str)){
+			
+		}
+		//page 유효성 검사
 		
 		return "/visitor/index";
 	}
