@@ -24,8 +24,8 @@ public class VisitorServiceImpl implements VisitorService {
 	 * @exception Exception
 	 */
 	@Override
-	public List<VisitorVO> selectAll(HashMap<String, Integer> page) throws Exception {
-		return dao.selectAll(page);
+	public List<VisitorVO> selectAll(HashMap<String, Object> limit) throws Exception {
+		return dao.selectAll(limit);
 	}
 
 	/**
@@ -35,8 +35,8 @@ public class VisitorServiceImpl implements VisitorService {
 	 * @exception Exception
 	 */
 	@Override
-	public int selectTot() throws Exception {
-		return dao.selectTot();
+	public int selectTot(String searchStr) throws Exception {
+		return dao.selectTot(searchStr);
 	}
 
 }

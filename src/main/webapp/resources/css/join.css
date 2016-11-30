@@ -218,7 +218,7 @@
     margin:5px 0;
 	border:1px solid #ccc;
 }
-.form_join ul li .email-area .email-id{
+.form_join ul li .email-area .emailId{
    float:left;
    width:285px;
    height:60px;
@@ -254,7 +254,7 @@
 	margin-left:10px;
 }
 
-.form_join .Pw2{
+.form_join .userPw2{
 	margin-top:30px;
 }
 
@@ -305,7 +305,7 @@
 	font-weight:bold;
 }
 
-.form_join .btn_center .btn1{
+.form_join .btn_center .submit{
 	float:left;
 	border:none;
 	display:inline-block;
@@ -318,7 +318,7 @@
 	cursor:pointer;
 }
 
-.form_join .btn_center .btn2{
+.form_join .btn_center .cancel{
 	float:right;
 	display:inline-block;
 	width:130px;

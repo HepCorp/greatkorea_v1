@@ -16,14 +16,12 @@
 }
 
 #introTitleSec {
-	position: absolute;
 	width: 100%;
 	height: 200px;
 	border-bottom: 1px solid #FFF;
 }
 
 #introTitle {
-   position: absolute;
    width: 1024px;
    height:170px;
    margin: 110px auto 0;
@@ -39,7 +37,6 @@
 }
 
 #introConSec {
-	position: absolute;
    	width: 100%;
    	height: 720px;
   	margin: 300px auto 0;
@@ -106,7 +103,6 @@
 }
 
 #introductionConSec {
-	/* position: absolute; */
    	width: 100%;
    	height: 720px;
   	margin: 40px auto 0;
@@ -120,19 +116,8 @@
    	color: #FFF;
 }
 
-.owl-wrapper {
-	width: 1024px;
-	left:0;
-	display: block;
-	transition: all 800ms ease;
-	trasform: translate3d(0px, 0px, 0px);
-}
-
-.owl-item {
-	width: 1024px;
-}
-
 #hepBox {
+	position: absolute;
 	width: 1024px;
 	height: 500px;
 	padding: 25px 0;
@@ -181,17 +166,10 @@
 	font-family: HelveticaMd;
 }
 
-#greatkoreaBox {
-	width: 1024px;
-	height: 450px;
-	padding: 50px 0;
-	background-color: rgba(0, 0, 0, 0.5);
-	display: none;
-}
-
 #greatkoreaIntro {
 	width: 1024px;
 	height: 500px;
+	display: none;
 }
 
 #greatkoreaCi {
@@ -223,19 +201,10 @@
 	font-family: HelveticaMd;
 }
 
-#bannerBox {
-	position: absolute;
-	width: 1024px;
-	height: 450px;
-	padding: 50px 0;
-	background-color: rgba(0, 0, 0, 0.5);
-	display: none;
-}
-
 #introBanner {
-	position: absolute;
 	width: 1024px;
 	height: 500px;
+	display: none;
 }
 
 #banner01 {
@@ -294,6 +263,73 @@
 	font-family: HelveticaMd;
 }
 
+#indicator {
+	width: 1024px;
+	height: 15px;
+}
+
+#indicator a {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #FFF;
+	border-radius: 8px;
+	margin-right: 5px;
+	margin-top: 7px;
+	text-indent: -9999px;
+}
+
+#indicator a.on {
+	background-color: #FFF;
+}
+
+/* #indicator a.play {
+	width: 10px;
+	height: 10px;
+	border: none;
+	border-radius: 0;
+	background-image: url('/greatkorea_html_v1/img/play-button.png');
+	background-size: cover;
+	margin-top: 0;
+	margin-right: 10px;
+}
+
+#indicator a.stop {
+	width: 10px;
+	height: 10px;
+	border: none;
+	border-radius: 0;
+	background-image: url('/greatkorea_html_v1/img/stop-button.png');
+	background-size: cover;
+	margin-top: 0;
+	margin-left: 5px;
+}
+ */
+.prev {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-image: url('/greatkorea_html_v1/img/prev-button.png');
+	background-size: cover;
+	top: 50%;
+	left: 10px;
+	margin-top: -20px;
+	text-indent: -9999px;
+}
+
+.next {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-image: url('/greatkorea_html_v1/img/next-button.png');
+	background-size: cover;
+	top: 50%;
+	right: 10px;
+	margin-top: -20px;
+	text-indent: -9999px;
+}
+
+
 
 
 
@@ -323,7 +359,6 @@
 }
 
 #divisionConSec {
-	/* position: absolute; */
    	width: 100%;
    	height: 720px;
   	margin: 40px auto 0;
@@ -379,7 +414,6 @@
 }
 
 #greetingConSec {
-	/* position: absolute; */
    	width: 100%;
    	height: 720px;
   	margin: 40px auto 0;
@@ -538,7 +572,6 @@
 }
 
 #mediaConSec {
-	/* position: absolute; */
    	width: 100%;
    	height: 720px;
   	margin: 40px auto 0;

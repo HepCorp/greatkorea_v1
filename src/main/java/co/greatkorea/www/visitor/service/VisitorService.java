@@ -10,7 +10,7 @@ public interface VisitorService {
 	 * @return VisitorVO
 	 * @exception Exception
 	 */
-	public List<VisitorVO> selectAll(HashMap<String, Integer> page) throws Exception;
+	public List<VisitorVO> selectAll(HashMap<String, Object> limit) throws Exception;
 	
 	/**
 	 * ¹æ¸í·Ï ¸ñ·Ï ÃÑ°¹¼ö
@@ -18,5 +18,5 @@ public interface VisitorService {
 	 * @return int
 	 * @exception Exception
 	 */
-	public int selectTot() throws Exception;
+	public int selectTot(String searchStr) throws Exception;
 }

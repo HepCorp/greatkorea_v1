@@ -15,13 +15,11 @@ public class VisitorDAO {
 	private SqlMapClient sql;
 	
 	@SuppressWarnings("unchecked")
-	public List<VisitorVO> selectAll(HashMap<String, Integer> page) throws SQLException{
-		System.out.println(page.size());
-		List<VisitorVO> list = sql.queryForList("visitor.select", page);
-		return list;
+	public List<VisitorVO> selectAll(HashMap<String, Object> limit) throws SQLException{
+		return sql.queryForList("visitor.selectAll", limit);
 	}
 	
-	public int selectTot() throws SQLException{
-		return (Integer) sql.queryForObject("visitor.selectTot");
+	public int selectTot(String searchStr) throws SQLException{
+		return (Integer) sql.queryForObject("visitor.selectTot", searchStr);
 	}
 }

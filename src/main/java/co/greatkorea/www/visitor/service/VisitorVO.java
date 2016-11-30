@@ -9,6 +9,7 @@ public class VisitorVO {
 	private int member_no;
 	private String input_ip;
 	private Date input_dt;
+	private String color;
 
 	public VisitorVO() {
 		super();
@@ -72,10 +73,19 @@ public class VisitorVO {
 		this.input_ip = input_ip;
 	}
 
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	@Override
 	public String toString() {
 		return "VisitorVO [visitor_no=" + visitor_no + ", contents=" + contents + ", write_id=" + write_id
-				+ ", member_no=" + member_no + ", input_ip=" + input_ip + ", input_dt=" + input_dt + "]";
+				+ ", member_no=" + member_no + ", input_ip=" + input_ip + ", input_dt=" + input_dt + ", color=" + color
+				+ "]";
 	}
 
 }
