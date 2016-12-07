@@ -9,7 +9,7 @@
 			<li>|</li>
 			<li><a href="#">개인정보취급방침</a></li>
 			<li>|</li>
-			<li><a href="#">고객센터</a></li>
+			<li><a href="mailto:supoprt@greatkorea.co">고객센터</a></li>
 		</ul>
 	</div>
 </div>

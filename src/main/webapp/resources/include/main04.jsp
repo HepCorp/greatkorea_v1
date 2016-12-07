@@ -3,7 +3,7 @@
 		<div id="greetingTitleSec">
 			<div class="titleSection">
 				<div id="greetingTitle" class="titleWrap">
-					<h2>인사말 <span>CEO GREETING</span></h2>
+					<h2>인사말 <span>CEO Greeting</span></h2>
 					<!-- <h3>CEO GREETING</h3> -->
 				</div>
 			</div>

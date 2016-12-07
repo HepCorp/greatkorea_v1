@@ -3,7 +3,7 @@
 		<div id="divisionTitleSec">
 			<div class="titleSection">
 				<div id="divisionTitle" class="titleWrap">
-					<h2>진출분야 <span>	ADVANCE OF DIVISION</span></h2>
+					<h2>진출분야 <span>	Advance of Division</span></h2>
 					<!-- <h3>ADVANCE OF DIVISION</h3> -->
 				</div>
 			</div>

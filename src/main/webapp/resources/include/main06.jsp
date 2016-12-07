@@ -4,7 +4,7 @@
 		<div id="partnerTitleSec">
 			<div class="titleSection">
 				<div id="partnerTitle" class="titleWrap">
-					<h2>파트너 <span>GLOBAL BUSINESS PARTNERS</span></h2>
+					<h2>파트너 <span>Global Business Partners</span></h2>
 					<!-- <h3>GLOBAL BUSINESS PARTNERS</h3> -->
 				</div>
 			</div>

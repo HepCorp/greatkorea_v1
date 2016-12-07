@@ -4,7 +4,7 @@
 		<div id="mediaTitleSec">
 			<div class="titleSection">
 				<div id="mediaTitle" class="titleWrap">
-					<h2>언론보도 <span>MEDIA REPORT</span></h2>
+					<h2>언론보도 <span>Media Report</span></h2>
 					<!-- <h3>MEDIA REPORT</h3> -->
 				</div>
 			</div>

@@ -3,7 +3,7 @@
 		<div id="introductionTitleSec">
 			<div class="titleSection">
 				<div id="introductionTitle" class="titleWrap">
-					<h2>회사소개<span>	INTRODUCTION</span></h2>
+					<h2>회사소개<span>	Intruduction</span></h2>
 					<!-- <h3>INTRODUCTION</h3> -->
 				</div>
 			</div>

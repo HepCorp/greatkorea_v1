@@ -5,7 +5,7 @@
          <div class="loginWrap">
             <div id="login">
                <ul>
-                  <li><a href="#">고객지원</a></li>
+                  <li><a href="mailto:support@greatkorea.co">고객지원</a></li>
                   <!-- <li><a href="#">회원가입</a></li>
                   <li><a href="#">로그인</a></li> -->
                </ul>
@@ -28,7 +28,7 @@
                            <a href="#">방명록</a>
                         </dt>
                         <dd>
-                           <a href="#">VISITORS</a>
+                           <a href="#">Visitor</a>
                         </dd>
                      </dl> -->
                      <!-- <dl>
@@ -36,7 +36,7 @@
                            <a href="#main06">파트너</a>
                         </dt>
                         <dd>
-                           <a href="#main06">PARTNER</a>
+                           <a href="#main06">Partner</a>
                         </dd>
                      </dl> -->
                      <dl>
@@ -44,7 +44,7 @@
                            <a href="#main05">언론보도</a>
                         </dt>
                         <dd>
-                           <a href="#main05">MEDIA</a>
+                           <a href="#main05">Media</a>
                         <dd>
                      </dl>
                      <dl>
@@ -52,7 +52,7 @@
                            <a href="#main04">인사말</a>
                         </dt>
                         <dd>
-                           <a href="#main04">GREETING</a>
+                           <a href="#main04">Greeting</a>
                         </dd>
                      </dl>
                      <dl>
@@ -60,7 +60,7 @@
                            <a href="#main03">진출분야</a>
                         </dt>
                         <dd>
-                           <a href="#main03">DIVISION</a>
+                           <a href="#main03">Division</a>
                         <dd>
                      </dl>
 
@@ -69,7 +69,16 @@
                            <a href="#main02">회사소개</a>
                         </dt>
                         <dd>
-                           <a href="#main02">INTRODUCTION</a>
+                           <a href="#main02">Introduction</a>
+                        </dd>
+                     </dl>
+                     
+                     <dl>
+                        <dt>
+                           <a href="#main01">메인</a>
+                        </dt>
+                        <dd>
+                           <a href="#main01">Main</a>
                         </dd>
                      </dl>
                   </div>

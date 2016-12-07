@@ -14,7 +14,7 @@ $(function(){
 	var h = new Array();
 	var sum = 0;
 
-	$('a[href^="#"]').on('click', function(e){
+	$('a[href^="#main"]').on('click', function(e){
 		e.preventDefault();
 
 		var target = this.hash, $target = $(target);
