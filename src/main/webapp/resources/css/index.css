@@ -22,6 +22,7 @@
 }
 
 #introTitle {
+   position: absolute;
    width: 1024px;
    height:170px;
    margin: 110px auto 0;
@@ -29,16 +30,16 @@
 
 #introTitle h3 {
 	height: 70px;
-   line-height: 70px;
-   font-size: 60px;
-   padding: 0px;
-   text-align: center;
-   color: #FFFFFF;
+	line-height: 70px;
+	font-size: 48px;
+	padding: 0px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 #introConSec {
    	width: 100%;
-   	height: 720px;
+   	height: 200px;
   	margin: 300px auto 0;
 }
 
@@ -61,16 +62,15 @@
 #videoWrap {
 	position: absolute;
 	width: 100%;	
-	margin: 0 auto;
+	margin: -700px auto;
 }
 
 #video {
 	width: 100%;
 	margin: 0 auto;
-	
 }
 
-#blackpink {
+#demo01 {
 	width: 100%;
 	height: calc(100vh - 140px);
 	z-index: 9999;
@@ -84,7 +84,7 @@
 #main02 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/greatkorea_html_v1/img/introduction_bg.jpg');
+	background-image: url('/resources/img/introduction_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -94,12 +94,17 @@
 	border-bottom: 1px solid #FFF;
 }
 
+#introductionTitle {
+	position: absolute;
+}
+
 #introductionTitle h2 {
+	margin-top: 40px;
 	color: #FFFFFF;
 }
 
-#introductionTitle h3 {
-	color: #DFDFDF;
+#introductionTitle span, h3 {
+	color: #e0e0e0;
 }
 
 #introductionConSec {
@@ -283,33 +288,11 @@
 	background-color: #FFF;
 }
 
-/* #indicator a.play {
-	width: 10px;
-	height: 10px;
-	border: none;
-	border-radius: 0;
-	background-image: url('/greatkorea_html_v1/img/play-button.png');
-	background-size: cover;
-	margin-top: 0;
-	margin-right: 10px;
-}
-
-#indicator a.stop {
-	width: 10px;
-	height: 10px;
-	border: none;
-	border-radius: 0;
-	background-image: url('/greatkorea_html_v1/img/stop-button.png');
-	background-size: cover;
-	margin-top: 0;
-	margin-left: 5px;
-}
- */
 .prev {
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-image: url('/greatkorea_html_v1/img/prev-button.png');
+	background-image: url('/resources/img/prev-button.png');
 	background-size: cover;
 	top: 50%;
 	left: 10px;
@@ -321,7 +304,7 @@
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-image: url('/greatkorea_html_v1/img/next-button.png');
+	background-image: url('/resources/img/next-button.png');
 	background-size: cover;
 	top: 50%;
 	right: 10px;
@@ -330,17 +313,14 @@
 }
 
 
-
-
-
-/* introduction end */
+/* //introduction */
 
 /* division start */
 
 #main03 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/greatkorea_html_v1/img/division_bg.jpg');
+	background-image: url('/resources/img/division_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -350,12 +330,17 @@
 	border-bottom: 1px solid #FFF;
 }
 
+#divisionTitle {
+	position: absolute;
+}
+
 #divisionTitle h2 {
+	margin-top: 40px;
 	color: #FFFFFF;
 }
 
-#divisionTitle h3 {
-	color: #DFDFDF;
+#divisionTitle span, h3 {
+	color: #E0E0E0;
 }
 
 #divisionConSec {
@@ -388,14 +373,14 @@
 	height:550px;
 }
 
-/* division end */
+/* //division */
 
-/* greeting start */
+/* greeting */
 
 #main04 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/greatkorea_html_v1/img/greeting_bg.jpg');
+	background-image: url('/resources/img/greeting_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -405,11 +390,16 @@
 	border-bottom: 1px solid #FFF;
 }
 
+#greetingTitle {
+	position: absolute;
+}
+
 #greetingTitle h2 {
+	margin-top: 40px;
 	color: #333333;
 }
 
-#greetingTitle h3 {
+#greetingTitle span, h3 {
 	color: #666666;
 }
 
@@ -546,14 +536,14 @@
 }
 
 
-/* greeting end */
+/* //greeting */
 
-/* media report start */
+/* media report */
 
 #main05 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/greatkorea_html_v1/img/media_bg.jpg');
+	background-image: url('/resources/img/media_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -563,11 +553,16 @@
 	border-bottom: 1px solid #000;
 }
 
+#mediaTitle {
+	position: absolute;
+}
+
 #mediaTitle h2 {
+	margin-top: 40px;
 	color: #333333;
 }
 
-#mediaTitle h3 {
+#mediaTitle span, h3 {
 	color: #666666;
 }
 
@@ -636,7 +631,10 @@
 }
 
 .newsPreview h3 {
+	text-align: left;
 	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
 }
 
 .articleSub {
@@ -667,43 +665,51 @@
 #newsBox02 {
 	margin-bottom: 20px;
 }
-/* media report end */
+/* //media report */
 
-/* partner start */
+/* partner */
 
 #main06 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/greatkorea_html_v1/img/partner_bg.jpg');
+	background-image: url('/resources/img/partner_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.category .mediaTitleSec{
+.category #partnerTitleSec{
 	border-bottom: 1px solid #9c9c9c;	
 }
 
-.category .mediaTitleSec .titleSection .titleWrap h2,
-.category .mediaTitleSec .titleSection .titleWrap h3{
-	color:#9c9c9c;
+#partnerTitle {
+	position: absolute;
 }
 
-.category .partenr_div{
+#partnerTitle h2 {
+	margin-top: 40px;
+	color: #FFFFFF;
+}
+
+#partnerTitle span, h3 {
+	color:#999999;
+}
+
+.category .partner_div{
 	width:1000px;
 	margin:0 auto;
 	text-align:center;
 	margin-top:70px;
 }
 
-.category .partenr_div ul:after{
+.category .partner_div ul:after{
 	content:"";
 	display:block;
 	clear:both;
 	width:100%;
 }
 
-.category .partenr_div ul li{
+.category .partner_div ul li{
 	float:left;
 	height:50px;
 	width:25%;
@@ -713,55 +719,71 @@
 
 /* partner end */
 
-/* footer start */
 
-#footer{
-	width:100%;
-	height:140px;
-	margin:0 auto;
-	background-color: #fff;
+/* siddSlide */
+
+
+.sideSlide {
+	position: fixed;
+	width: 45px;
+	height: 200px;
+	background-image: url('/resources/img/pager.png');
+	top: 50%;
+	right: 0px;
+	margin-top: -100px;
+	z-index: 9997; 
 }
 
-#footer .footer_inner{
-	margin:0 auto;
-	width:1024px;
+.sideSlide a {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #FFF;
+	border-radius: 15px;
+	text-indent: -9999px;
+	margin: 0 0 10px 17px;
 }
 
-#footer .footer_inner address{
-	float:left;
-	width:1024px;
-	height:30px;
-	margin-top:20px;
-	font-style:normal;
+
+.sideSlide a:first-child {
+	margin-top: 30px;
+}
+.sideSlide a:last-child {
+	margin-bottom: 0;
 }
 
-#footer .footer_inner p:nth-of-type(1){
-	float:left;
-	font-weight:bold;
-	margin-top:20px;
+.sideSlide a.on {
+	background-color: #FFF;
 }
 
-#footer .footer_inner p{
-	float:left;
+/* //sideSlide */
+
+
+/* topBtn */
+
+.topBtn {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	right: 10px;
+	bottom: 45px;
+	z-index: 9996;
 }
 
-#footer .footer_inner ul{
-	float:right;
+.topBg {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-#footer .footer_inner ul li:nth-of-type(3){
-	font-weight:bold;
+.topBg a {
+	color: #FFF;
 }
 
-#footer .footer_inner ul li{
-	display:inline;
-	margin-right:10px;
-}
-
-/* footer end */
-
-
-
-
+/* //topBtn */
 
 

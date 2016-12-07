@@ -9,7 +9,6 @@
 <head>
 <%@ include file="/resources/include/header.jsp"%>
 <link rel="stylesheet" charset="UTF-8" href="<c:url value="/resources/css/visitor.css" />" />
-<script type="text/javascript" charset="UTF-8" src="<c:url value="/resources/js/jquery-3.1.1/jquery.js" />"></script>
 <script type="text/javascript" charset="UTF-8" src="<c:url value="/resources/js/visitor.js" />"></script>
 <script type="text/javascript">
 function FormChkModule(f){

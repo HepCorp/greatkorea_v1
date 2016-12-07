@@ -27,3 +27,5 @@
 <meta property="og:description" content="그레이트 코리아 GREAT KOREA">
 
 <link rel="stylesheet" href="<c:url value="/resources/css/common.css" />" />
+<script type="text/javascript" charset="UTF-8" src="<c:url value="/resources/js/jquery-3.1.1/jquery.js" />"></script>
+<script type="text/javascript" charset="UTF-8" src="<c:url value="/resources/js/jquery-migrate-1.2.1/jquery-migrate.js" />"></script>

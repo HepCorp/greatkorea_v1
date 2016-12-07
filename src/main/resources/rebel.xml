@@ -4,6 +4,8 @@
 	<classpath>
 		<dir name="D:/DevelopTool/sts-bundle/workspace/greatkorea_v1/target/classes">
 		</dir>
+		<dir name="D:/DevelopTool/sts-bundle/workspace/greatkorea_v1/target/test-classes">
+		</dir>
 	</classpath>
 
 	<web>

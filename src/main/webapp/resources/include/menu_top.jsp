@@ -6,8 +6,8 @@
             <div id="login">
                <ul>
                   <li><a href="#">고객지원</a></li>
-                  <li><a href="#">회원가입</a></li>
-                  <li><a href="#">로그인</a></li>
+                  <!-- <li><a href="#">회원가입</a></li>
+                  <li><a href="#">로그인</a></li> -->
                </ul>
             </div>
          </div>
@@ -17,59 +17,59 @@
          <div class="topNav">
             <div class="navWrap">
                <div class="greatkorea_logo">
-                  <a href="http://www.greatkorea.co"> <img
+                  <a href="/index.do"> <img
                      src="<c:url value="/resources/img/greatkorea_logo.png" />" alt="그레이트 코리아 로고" title="그레이트 코리아 로고" />
                   </a>
                </div>
                <div class="navList">
                   <div class="nav">
-                     <dl>
+                     <!-- <dl>
                         <dt>
                            <a href="#">방명록</a>
                         </dt>
                         <dd>
                            <a href="#">VISITORS</a>
                         </dd>
+                     </dl> -->
+                     <!-- <dl>
+                        <dt>
+                           <a href="#main06">파트너</a>
+                        </dt>
+                        <dd>
+                           <a href="#main06">PARTNER</a>
+                        </dd>
+                     </dl> -->
+                     <dl>
+                        <dt>
+                           <a href="#main05">언론보도</a>
+                        </dt>
+                        <dd>
+                           <a href="#main05">MEDIA</a>
+                        <dd>
                      </dl>
                      <dl>
                         <dt>
-                           <a href="#">파트너</a>
+                           <a href="#main04">인사말</a>
                         </dt>
                         <dd>
-                           <a href="#">PARTNER</a>
+                           <a href="#main04">GREETING</a>
                         </dd>
                      </dl>
                      <dl>
                         <dt>
-                           <a href="#">언론보도</a>
+                           <a href="#main03">진출분야</a>
                         </dt>
                         <dd>
-                           <a href="#">MEDIA</a>
-                        <dd>
-                     </dl>
-                     <dl>
-                        <dt>
-                           <a href="#">인사말</a>
-                        </dt>
-                        <dd>
-                           <a href="#">GREETING</a>
-                        </dd>
-                     </dl>
-                     <dl>
-                        <dt>
-                           <a href="#">진출분야</a>
-                        </dt>
-                        <dd>
-                           <a href="#">DIVISION</a>
+                           <a href="#main03">DIVISION</a>
                         <dd>
                      </dl>
 
                      <dl>
                         <dt>
-                           <a href="#">회사소개</a>
+                           <a href="#main02">회사소개</a>
                         </dt>
                         <dd>
-                           <a href="#">INTRODUCTION</a>
+                           <a href="#main02">INTRODUCTION</a>
                         </dd>
                      </dl>
                   </div>

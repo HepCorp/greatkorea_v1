@@ -1,5 +1,3 @@
-@CHARSET "UTF-8";
-
 @charset "utf-8";
 /* font */
 /*@font-face {
@@ -102,9 +100,7 @@ img { border:none; vertical-align:top; }
 ul li, ol li { list-style:none; }
 a { text-decoration:none; color: #333;}
 
-
-
-
+/*------------------------------------------------------------------------------------------*/
 
 /* Header Start */
 .headerWrap {
@@ -118,7 +114,6 @@ a { text-decoration:none; color: #333;}
 /* Login Start*/
 
 .loginWrap {
-	position: absolute;
 	width: 100%;
 	height: 40px;
 	background-color: #000;
@@ -164,7 +159,6 @@ a { text-decoration:none; color: #333;}
 /* Navigation Start */
 
 .topNav {
-	position:fixed;
 	width: 100%;
 	height: 100px;
 	background-color: #FFF;
@@ -216,7 +210,11 @@ a { text-decoration:none; color: #333;}
 
 
 .nav dl dt a:hover {
-	border-bottom: 1px solid #333;
+	border-bottom: 2px solid #333;
+}
+
+.nav dl dt a.active {
+	border-bottom: 2px solid #333;
 }
 
 .nav dl dd {
@@ -237,14 +235,11 @@ a { text-decoration:none; color: #333;}
 }
 
 #middleWrapper {
-  
-   width: 100%;
-   
-   background-color: #000;
+	width: 100%;
+	background-color: #000;
 }
 
 .pageTitle {
-   
    width: 100%;
    height: 170px;
    margin: 140px auto 0;
@@ -254,12 +249,13 @@ a { text-decoration:none; color: #333;}
 
 .titleSection {
    width:1024px;
-   height: 200px;
+   height: 150px;
    margin: 0 auto;
    text-align:center;
 }
 
 .titleWrap {
+	position: absolute;
    width: 1024px;
    height:170px;
    margin: 0 auto;
@@ -268,19 +264,22 @@ a { text-decoration:none; color: #333;}
 .titleWrap h2 {
    height: 70px;
    line-height: 70px;
-   font-size: 60px;
+   font-size: 48px;
    padding: 0px;
    text-align: center;
    color: #333333;
 }
 
-.titleWrap h3 {
-   height: 70px;
-   line-height: 70px;
-   font-size: 60px;
+
+
+.titleWrap span, h3 {
+   height: 50px;
+   line-height: 50px;
+   font-size: 24px;
    padding: 0px;
    text-align: center;
    color: #666666;
+   font-family: HelveticaLt;
 }
 
 .contentSection {
@@ -298,7 +297,19 @@ a { text-decoration:none; color: #333;}
 
 /* contents end */
 
-/* footer start */
+/* 유효성 체크 */
+.fc_red{
+	color:red;
+	font-size:12px;
+}
+
+.fc_sky{
+	color:blue;
+	font-size:12px;
+}
+/* //유효성 체크 */
+
+/* footer */
 
 #footer{
 	width:100%;
@@ -343,5 +354,6 @@ a { text-decoration:none; color: #333;}
 	margin-right:10px;
 }
 
-/* footer end */
+/* //footer */
+
 
