@@ -1,5 +1,5 @@
 $(function(){
-	//nav click, wheel scroll
+	/* //nav click, wheel scroll */
 	var winHeight = $(window).height() - 140;
 	var selNum = 0;
 	var duration = 1000;
@@ -14,18 +14,17 @@ $(function(){
 	var h = new Array();
 	var sum = 0;
 
-	$('a[href^="#main"]').on('click', function(e){
+	$('a[href^="#"]').on('click', function(e){
 		e.preventDefault();
 
 		var target = this.hash, $target = $(target);
 
 		$('html,body').stop().animate({'scrollTop':$target.offset().top - 140}, function(){
-			window.location.hash = '1' + target;	
+			window.location.hash = target;
 		});
-		
 	});
 
-	$(".category").each(function(index){
+	/*$(".category").each(function(index){
 		$(this).attr("data-h",index * winHeight);
 	});
 
@@ -43,9 +42,10 @@ $(function(){
 			$(".nav > dt").addClass("active");
 			
 		}
-	});
+		return false;
+	});*/
 	
-	//nav click, wheel scroll end
+	/* //nav click, wheel scroll */
 	
 	/* sideSlide */
 	
