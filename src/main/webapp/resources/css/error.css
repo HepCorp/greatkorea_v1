@@ -1,4 +1,6 @@
-@charset "utf-8";
+@CHARSET "UTF-8";
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
 /* font */
 @font-face {
   	font-family: 'NotoSansLT';
@@ -59,7 +61,7 @@
   	font-style: normal;
 }
 
-@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
 
 /* reset css */
 /*
@@ -100,322 +102,63 @@ img { border:none; vertical-align:top; }
 ul li, ol li { list-style:none; }
 a { text-decoration:none; color: #333;}
 
-/*------------------------------------------------------------------------------------------*/
 
-/* Header Start */
-.headerWrap {
-	position: fixed;
+
+#errorWrap {
 	width: 100%;
-	height: 140px;
-	z-index: 10000;
-	top: 0;
-}
-
-/* Login Start*/
-
-.loginWrap {
-	width: 100%;
-	height: 40px;
+	height: 100vh;
 	background-color: #000;
 }
 
-#login {
+#errorCon {
+	width: 100%;
+	height: 200px;
+}
+
+#errorImg {
 	width: 1024px;
-	height: 40px;
+	height: 150px;
 	margin: 0 auto;
-}
-
-.loginWrap ul {
-	width: 400px;
-	height: 40px;
-	float: right;
-	line-height: 40px;
-}
-
-.loginWrap ul li {
-	float: right;
-	margin-left: 40px;
-}
-
-.loginWrap ul li:first-child {
-	margin-right: 20px;
-}
-
-.loginWrap ul li:last-child {
-	margin-left: 0;
-}
-
-.loginWrap ul li a {
-	color: #FFF;
-	font-size: 16px;
-}
-
-.loginWrap ul li:last-child a {
-	color: #D8D96D;
-}
-
-/* Login end */
-
-/* Navigation Start */
-
-.topNav {
-	width: 100%;
-	height: 100px;
-	background-color: #FFF;
-
-
-/* Header */
-.headerWrap {
-	position: fixed;
-	width: 100%;
-	height: 140px;
-	z-index: 10000;
-	top: 0;
-}
-
-/* Login */
-
-.loginWrap {
-	width: 100%;
-	height: 40px;
-	background-color: #000;
-}
-
-#login {
-	width: 1024px;
-	height: 40px;
-	margin: 0 auto;
-}
-
-.loginWrap ul {
-	width: 400px;
-	height: 40px;
-	float: right;
-	line-height: 40px;
-}
-
-.loginWrap ul li {
-	float: right;
-	margin-left: 40px;
-}
-
-.loginWrap ul li:first-child {
-	margin-right: 20px;
-}
-
-.loginWrap ul li:last-child {
-	margin-left: 0;
-}
-
-.loginWrap ul li a {
-	color: #FFF;
-	font-size: 16px;
-}
-
-.loginWrap ul li:last-child a {
-	color: #D8D96D;
-}
-
-/* //Login */
-
-/* Navigation */
-
-.topNav {
-	position:fixed;
-	width: 100%;
-	height: 100px;
-	background-color: #FFF;
-}
-
-.navWrap {
-	width: 1024px;
-	height: 40px;
-	margin: 0 auto;
-}
-
-.greatkorea_logo {
-	width: 200px;
-	height: 40px;
-	float: left;
-	margin: 30px 0 0 10px;
-}
-
-.greatkorea_logo a img {
-	width: 200px;
-	height: 40px;
-}
-
-.navList {
-	width: 650px;
-	height: 100px;
-	float: right;
-	margin-right: 10px;
-}
-
-.nav {
-	width: 650px;
-	height: 56px;
-}
-
-.nav dl {
-	float: left;
-	margin: 22px 0 0 30px;
-}
-
-.nav dl:last-child {
-	margin-right: 0;
-}
-
-.nav dl dt {
-	height: 36px;
-	font-size: 24px;
 	text-align: center;
 }
 
-
-.nav dl dt a:hover {
-	border-bottom: 2px solid #333;
-}
-
-.nav dl dt a.active {
-	border-bottom: 2px solid #333;
-}
-
-.nav dl dd {
-	height: 20px;
-	font-size: 12px;
-	text-align: center;
-}
-
-/* Navigation end */
-/* //Header */
-
-
-/* contents */
-
-.bodyWrap {
-	width: 100%;
-}
-
-#middleWrapper {
-	width: 100%;
-	background-color: #000;
-}
-
-.pageTitle {
-   width: 100%;
-   height: 170px;
-   margin: 140px auto 0;
-   padding-bottom: 15px;
-   border-bottom: 1px solid #000;
-}
-
-.titleSection {
-   width:1024px;
-   height: 150px;
-   margin: 0 auto;
-   text-align:center;
-}
-
-.titleWrap {
+#error {
 	position: absolute;
-   width: 1024px;
-   height:170px;
-   margin: 0 auto;
+	width: 1024px;
+	height: 170px;
+	margin: 250px auto 0;
 }
 
-.titleWrap h2 {
-   height: 70px;
-   line-height: 70px;
-   font-size: 48px;
-   padding: 0px;
-   text-align: center;
-   color: #333333;
+#error img {
+	width: 200px;
+	height: 200px;
+	text-align: center;
 }
 
-.titleWrap span, h3 {
-   height: 50px;
-   line-height: 50px;
-   font-size: 24px;
-   padding: 0px;
-   text-align: center;
-   color: #666666;
-   font-family: HelveticaLt;
+#errorTextCon {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
 }
 
-.contentSection {
-   width: 100%;
-   margin: 0 auto ;
+#errorText {
+	width: 1024px;
+	height: 720px;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFF;
 }
 
-.contentWrap {
-   width: 1024px;
-
-   margin: 0 auto;
-   text-align: center;
-   color: #FFF;
+#errorText h1 {
+	color: #F5C124;
+	font-size: 78px;
+	margin-top: 300px;
+	font-family: HelveticaBd;
 }
 
-/* //contents */
-
-/* 유효성 체크 */
-.fc_red{
-	color:red;
-	font-size:12px;
+#errorText h3 {
+	color: #FFF;
+	font-size: 36px;
+	margin-top: 20px;
+	font-family: NotoSansRE;
 }
-
-.fc_sky{
-	color:blue;
-	font-size:12px;
-}
-/* //유효성 체크 */
-
-/* footer */
-
-#footer{
-	width:100%;
-	height:140px;
-	margin:0 auto;
-	background-color: #fff;
-}
-
-#footer .footer_inner{
-	margin:0 auto;
-	width:1024px;
-}
-
-#footer .footer_inner address{
-	float:left;
-	width:1024px;
-	height:30px;
-	margin-top:20px;
-	font-style:normal;
-}
-
-#footer .footer_inner p:nth-of-type(1){
-	float:left;
-	font-weight:bold;
-	margin-top:20px;
-}
-
-#footer .footer_inner p{
-	float:left;
-}
-
-#footer .footer_inner ul{
-	float:right;
-}
-
-#footer .footer_inner ul li:nth-of-type(3){
-	font-weight:bold;
-}
-
-#footer .footer_inner ul li{
-	display:inline;
-	margin-right:10px;
-}
-
-/* //footer */
-
-
-

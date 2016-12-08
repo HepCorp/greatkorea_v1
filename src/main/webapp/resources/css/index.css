@@ -22,7 +22,7 @@
 }
 
 #introTitle {
-   position: absolute;
+	position: absolute;
    width: 1024px;
    height:170px;
    margin: 110px auto 0;
@@ -84,7 +84,7 @@
 #main02 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/introduction_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/introduction_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -135,9 +135,17 @@
 	height: 500px;
 }
 
+#hepCenter {
+	position: relative;
+	width: 1024px;
+	height: 400px;
+}
+
 #hepCi {
+	position: absolute;
 	width: 1024px;
 	height:172px;
+	top: 30px;
 }
 
 #hepCi img {
@@ -146,9 +154,11 @@
 }
 
 #hepDetail {
+	position: absolute;
 	width: 1024px;
 	height: 288px;
 	margin: 40px auto 0;
+	top: 200px;
 }
 
 #hepTextBox {
@@ -177,9 +187,17 @@
 	display: none;
 }
 
+#greatkoreaCenter {
+	position: relative;
+	width: 1024px;
+	height: 400px;
+}
+
 #greatkoreaCi {
+	position: absolute;
 	width: 1024px;
 	height:56px;
+	top: 150px;
 }
 
 #greatkoreaCi img {
@@ -188,9 +206,11 @@
 }
 
 #greatkoreaDetail {
+	position: absolute;
 	width: 1024px;
 	height: 288px;
 	margin: 40px auto 0;
+	top: 200px;
 }
 
 #greatkoreaTextBox {
@@ -212,10 +232,18 @@
 	display: none;
 }
 
+#bannerCenter {
+	position: relative;
+	width: 1024px;
+	height: 400px;
+}
+
 #banner01 {
+	position: absolute;
 	width:512px;
 	height: 300px;
 	float:left;
+	top: 100px;
 }
 
 #bannerImg01 {
@@ -241,9 +269,12 @@
 }
 
 #banner02 {
+	position: absolute;
 	width: 512px;
 	height: 300px;
 	float: right;
+	top: 100px;
+	right: 0;
 }
 
 #bannerImg02 {
@@ -292,7 +323,7 @@
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-image: url('/resources/img/prev-button.png');
+	background-image: url('/greatkorea_html_v1/img/prev-button.png');
 	background-size: cover;
 	top: 50%;
 	left: 10px;
@@ -304,7 +335,7 @@
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-image: url('/resources/img/next-button.png');
+	background-image: url('/greatkorea_html_v1/img/next-button.png');
 	background-size: cover;
 	top: 50%;
 	right: 10px;
@@ -320,7 +351,7 @@
 #main03 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/division_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/division_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -380,7 +411,7 @@
 #main04 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/greeting_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/greeting_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -458,6 +489,8 @@
 #greetingArticle02 h3 {
 	color: #FFD800;
 	font-size: 24px;
+	text-align: left;
+	height: 30px;
 }
 
 #greetingArticle02 p {
@@ -543,7 +576,7 @@
 #main05 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/media_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/media_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -657,7 +690,7 @@
 
 .newsPreview div a {
 	font-size: 12px;
-	color: #F00;
+	color: #376d88;
 	float: right;
 }
 
@@ -672,7 +705,7 @@
 #main06 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/partner_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/partner_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -719,6 +752,52 @@
 
 /* partner end */
 
+/* footer start */
+
+#footer{
+	width:100%;
+	height:140px;
+	margin:0 auto;
+	background-color: #fff;
+}
+
+#footer .footer_inner{
+	margin:0 auto;
+	width:1024px;
+}
+
+#footer .footer_inner address{
+	float:left;
+	width:1024px;
+	height:30px;
+	margin-top:20px;
+	font-style:normal;
+}
+
+#footer .footer_inner p:nth-of-type(1){
+	float:left;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+#footer .footer_inner p{
+	float:left;
+}
+
+#footer .footer_inner ul{
+	float:right;
+}
+
+#footer .footer_inner ul li:nth-of-type(3){
+	font-weight:bold;
+}
+
+#footer .footer_inner ul li{
+	display:inline;
+	margin-right:10px;
+}
+
+/* footer end */
 
 /* siddSlide */
 
@@ -727,7 +806,7 @@
 	position: fixed;
 	width: 45px;
 	height: 200px;
-	background-image: url('/resources/img/pager.png');
+	background-image: url('/greatkorea_html_v1/img/pager.png');
 	top: 50%;
 	right: 0px;
 	margin-top: -100px;

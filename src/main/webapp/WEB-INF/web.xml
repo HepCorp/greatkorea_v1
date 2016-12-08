@@ -69,5 +69,23 @@
 		<servlet-name>appServlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	<!-- error-page -->
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/WEB-INF/views/common/error.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>404</exception-type>
+		<location>/WEB-INF/views/common/error.jsp</location>
+	</error-page>
+	<error-page>
+		<exception-type>500</exception-type>
+		<location>/WEB-INF/views/common/error.jsp</location>
+	</error-page>
+	<!-- //error-page -->
 
 </web-app>
+
+
+
