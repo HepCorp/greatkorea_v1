@@ -8,7 +8,6 @@
 <head>
 <%@ include file="/resources/include/header.jsp"%>
 <link rel="stylesheet" charset="UTF-8" href="<c:url value="/resources/css/index.css" />" />
-
 <script type="text/javascript" charset="UTF-8" src="<c:url value="/resources/js/index.js" />"></script>
 </head>
 <body>

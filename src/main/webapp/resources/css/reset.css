@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+/* font */
+@font-face {
+  	font-family: 'NotoSansLT';
+  	src: url('webfont/NotoSansKR-Light-Alphabetic/NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),  
+  	url('webfont/NotoSansKR-Light-Alphabetic.otf')  format('opentype'),
+	url('webfont/NotoSansKR-Light-Alphabetic/NotoSansKR-Light-Alphabetic.woff') format('woff'), 
+	url('webfont/NotoSansKR-Light-Alphabetic.ttf')  format('truetype'), 
+	url('webfont/NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg');
+
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+
+@font-face {
+  	font-family: 'NotoSansRE';
+  	src: url('webfont/NotoSansKR-Regular-Alphabetic/NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),  
+  	url('webfont/NotoSansKR-Regular-Alphabetic/NotoSansKR-Regular-Alphabetic.otf')  format('opentype'),
+	url('webfont/NotoSansKR-Regular-Alphabetic/NotoSansKR-Regular-Alphabetic.woff') format('woff'), 
+	url('webfont/NotoSansKR-Regular-Alphabetic/NotoSansKR-Regular-Alphabetic.ttf')  format('truetype'), 
+	url('webfont/NotoSansKR-Regular-Alphabetic/NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+
+@font-face {
+  	font-family: 'HelveticaLt';
+  	src: url('webfont/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.eot?#iefix') format('embedded-opentype'), 
+   	url('webfont/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.otf')  format('opentype'),
+	url('webfont/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.woff') format('woff'), 
+	url('webfont/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.ttf')  format('truetype'), 
+	url('webfont/HelveticaNeueLTStd-Lt/HelveticaNeueLTStd-Lt.svg#HelveticaNeueLTStd-Lt') format('svg');
+  	font-weight: normal; font-style: normal; letter-spacing:30;
+}
+
+
+@font-face {
+  	font-family: 'HelveticaMd';
+ 	src: url('webfont/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'),  
+  	url('webfont/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.otf')  format('opentype'),
+	url('webfont/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.woff') format('woff'), 
+	url('webfont/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.ttf')  format('truetype'), 
+	url('webfont/HelveticaNeueLTStd-Md/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+
+@font-face {
+  	font-family: 'HelveticaBd';
+  	src: url('webfont/HelveticaNeueLTStd-Bd/HelveticaNeueLTStd-Bd.eot?#iefix') format('embedded-opentype'),  
+  	url('webfont/HelveticaNeueLTStd-Bd/HelveticaNeueLTStd-Bd.otf')  format('opentype'),
+	url('webfont/HelveticaNeueLTStd-Bd/HelveticaNeueLTStd-Bd.woff') format('woff'), 
+	url('webfont/HelveticaNeueLTStd-Bd/HelveticaNeueLTStd-Bd.ttf')  format('truetype'), 
+	url('webfont/HelveticaNeueLTStd-Bd/HelveticaNeueLTStd-Bd.svg#HelveticaNeueLTStd-Bd') format('svg');
+  	font-weight: normal;
+  	font-style: normal;
+}
+
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+/* reset css */
+/*
+Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: #000;
+}
+
+/* CSS Document */
+html, body { width:100%; height:100%; }
+html, body, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, p, a, span, form, input {
+	padding : 0;
+	margin : 0;
+}
+
+body { font-family: "Noto Sans KR";}
+
+img { border:none; vertical-align:top; }
+ul li, ol li { list-style:none; }
+a { text-decoration:none; color: #333;}
+
+
