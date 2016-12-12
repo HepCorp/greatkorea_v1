@@ -1,88 +1,75 @@
 $(function(){
 	/* //nav click, wheel scroll */
-	var winHeight = $(window).height() - 140;
+	
 	var selNum = 0;
 	var duration = 1000;
 	var total = $("#introductionCon #hepBox .slider").length;
-	var listWidth = $("#introductionCon #hepBox .slider").width();
-	var tx = listWidth;
-	var rightEnd = listWidth*total;
 	var isDir = "next";
-	var timer
 	var depth = 2;
-	var slider = $(".sideSlide a");
+	
+	
 	var h = new Array();
 	var sum = 0;
 
-	$('a[href^="#"]').on('click', function(e){
+
+	/**Editor : ysy */
+	/**Date : 2016-12-12 */
+	/* navigation */
+	var winHeight = $(window).height() - 140;
+	var slider = $(".sideSlide a");
+	var nav = $(".nav dl dt a");
+	var nav2 = $(".nav dl dd a");
+	
+	nav.add(nav2).add(slider).click(function(e){
 		e.preventDefault();
-
-		var target = this.hash, $target = $(target);
-
-		$('html,body').stop().animate({'scrollTop':$target.offset().top - 140}, function(){
-			window.location.hash = target;
-		});
+		scrollNav(this);
+		return false;
 	});
-
-	/*$(".category").each(function(index){
-		$(this).attr("data-h",index * winHeight);
+	nav[0].click();
+	
+	$(".category").each(function(index){
+		$(this).attr("data-h", index * winHeight);
 	});
-
-	$(".category").bind("mousewheel",function(e){
+	$(".category").on("mousewheel DOMMouseScroll", function(e){
 		var st = parseInt($(this).attr("data-h"));
-		if(e.originalEvent.wheelDelta >= 0) {
-			$("body,html").stop().animate({scrollTop:st-winHeight});
-			$(".nav > dt").removeClass("active");
-			$(".nav > dt").addClass("active");
-			
-		}
-		if(e.originalEvent.wheelDelta < 0) {
-			$("body,html").stop().animate({scrollTop:st+winHeight});
-			$(".nav > dt").removeClass("active");
-			$(".nav > dt").addClass("active");
-			
-		}
-		return false;
-	});*/
-	
-	/* //nav click, wheel scroll */
-	
-	/* sideSlide */
-	
-	slider.click(function(){
-		var target = $(this).attr("href");
-		
-		$("html, body").animate({scrollTop:$(target).top},1000);
-		if(slider.target){
-			$(slider.target).removeClass("on");
-			$(this).addClass("on");
-		}else{
-			$(this).addClass("on");
-		}
-		slider.target = this;
-		return false;
+		var wheel = $(document).scrollTop().valueOf();;
+ 		if (st >= wheel){
+ 			var id = $(".category").index(this);
+ 			activeMenu(id);
+ 		}
 	});
-	slider[0].click();
 	
-	/*//sideSlide */
+	function scrollNav(obj){
+		var target = obj.hash, $target = $(target);
+		$("html, body").animate({scrollTop:$target.offset().top - 140}, 1000);
+		
+		var id = nav.index(obj);
+		if (id == -1) id = nav2.index(obj);
+		if (id == -1) id = slider.index(obj);
+		activeMenu(id);
+	}
+	
+	function activeMenu(id){
+		nav.removeClass("active");
+		nav.eq(id).addClass("active");
+		slider.removeClass("on");
+		slider.eq(id).addClass("on");
+	}
+	/* navigation end */
 
 	/* topBtn */
-
 	$(".topBtn").click(function(){
 		$("html,body").animate({scrollTop:0});
 		return false;
 	});
-
 	/*//topBtn */
 
 
 	/* introduction slide */
-
 	$("#hepBox #indicator a").on("click",function(e){
 		selNum = $(this).index();
 		depth = depth+1;
 		indicator(selNum);
-		moveSlide();
 		return false;
 	});
 
@@ -92,7 +79,6 @@ $(function(){
 		selNum = selNum%total;
 		depth = depth+1;
 		indicator(selNum);
-		moveSlide();
 		return false;
 	});
 
@@ -102,7 +88,6 @@ $(function(){
 		selNum = selNum%total;
 		depth = depth+1;
 		indicator(selNum);
-		moveSlide();
 		return false;
 	});
 
@@ -114,10 +99,6 @@ $(function(){
 		$("#introductionCon #indicator .on").removeClass("on");
 		$("#introductionCon #indicator a").eq(num).addClass("on");
 	}
-
-	function moveSlide() {
-
-	}
-
 	/*//introduction slide */
+	
 });

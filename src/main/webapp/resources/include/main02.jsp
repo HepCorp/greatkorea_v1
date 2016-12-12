@@ -71,9 +71,9 @@
 						</div>
 					</div>
 					<div id="indicator">
-						<a href="" class="on">1</a> <a href="">2</a> <a href="">3</a>
+						<a href="#" class="on">1</a> <a href="#">2</a> <a href="#">3</a>
 					</div>
-					<a href="" class="prev">PREV</a> <a href="" class="next">NEXT</a>
+					<a href="#" class="prev">PREV</a> <a href="#" class="next">NEXT</a>
 				</div>
 			</div>
 		</div>

@@ -15,6 +15,7 @@
 	width: 100%;
 	height: 40px;
 	background-color: #000;
+	font-family: NotoSansLT;
 }
 
 #login {
@@ -45,7 +46,7 @@
 
 .loginWrap ul li a {
 	color: #FFF;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .loginWrap ul li:last-child a {
@@ -82,14 +83,12 @@
 }
 
 .navList {
-	width: 650px;
 	height: 100px;
 	float: right;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .nav {
-	width: 650px;
 	height: 56px;
 }
 
@@ -104,23 +103,27 @@
 
 .nav dl dt {
 	height: 36px;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center;
+	font-family: NotoSansRE;
+	color: #484848;
 }
 
 
 .nav dl dt a:hover {
-	border-bottom: 2px solid #333;
+	border-bottom: 1px solid #333;
 }
 
 .nav dl dt a.active {
-	border-bottom: 2px solid #333;
+	border-bottom: 1px solid #333;
 }
 
 .nav dl dd {
 	height: 20px;
 	font-size: 12px;
 	text-align: center;
+	font-family: HelveticaLt;
+	color: #484848;
 }
 
 /* Navigation end */

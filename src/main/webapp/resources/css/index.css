@@ -84,7 +84,7 @@
 #main02 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/introduction_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/introduction_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -323,7 +323,7 @@
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-image: url('/resources/img/prev-button.png');
+	background-image: url('/greatkorea_html_v1/img/prev-button.png');
 	background-size: cover;
 	top: 50%;
 	left: 10px;
@@ -335,7 +335,7 @@
 	position: absolute;
 	width: 40px;
 	height: 40px;
-	background-image: url('/resources/img/next-button.png');
+	background-image: url('/greatkorea_html_v1/img/next-button.png');
 	background-size: cover;
 	top: 50%;
 	right: 10px;
@@ -351,7 +351,7 @@
 #main03 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/division_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/division_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -411,7 +411,7 @@
 #main04 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/greeting_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/greeting_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -576,7 +576,7 @@
 #main05 {
 	width: 100%;
 	height: calc(100vh - 140px);
-	background-image: url('/resources/img/media_bg.jpg');
+	background-image: url('/greatkorea_html_v1/img/media_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -704,8 +704,8 @@
 
 #main06 {
 	width: 100%;
-	height: calc(100vh - 140px);
-	background-image: url('/resources/img/partner_bg.jpg');
+	height: calc(100vh - 280px);
+	background-image: url('/greatkorea_html_v1/img/partner_bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -732,7 +732,7 @@
 	width:1000px;
 	margin:0 auto;
 	text-align:center;
-	margin-top:70px;
+	margin-top:50px;
 }
 
 .category .partner_div ul:after{
@@ -758,8 +758,8 @@
 .sideSlide {
 	position: fixed;
 	width: 45px;
-	height: 200px;
-	background-image: url('/resources/img/pager.png');
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 30px 0 0 30px;
 	top: 50%;
 	right: 0px;
 	margin-top: -100px;
@@ -782,7 +782,7 @@
 	margin-top: 30px;
 }
 .sideSlide a:last-child {
-	margin-bottom: 0;
+	margin-bottom: 30px;
 }
 
 .sideSlide a.on {

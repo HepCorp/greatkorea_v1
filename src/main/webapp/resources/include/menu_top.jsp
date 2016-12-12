@@ -24,6 +24,14 @@
 						<div class="nav">
 							<dl>
 								<dt>
+									<a href="#main01">메인</a>
+								</dt>
+								<dd>
+									<a href="#main01">MAIN</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>
 									<a href="#main02">회사소개</a>
 								</dt>
 								<dd>
