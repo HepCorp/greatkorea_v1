@@ -29,7 +29,7 @@ public class VisitorController extends ParamValidatChk {
 			, @RequestParam(value="searchStr", required=false) String searchStr
 			, VisitorVO vo
 			, ModelMap model) throws Exception{
-		//page À¯È¿¼º Ã¼Å©
+		//page Confirm
 		int pageNo;
 		page = getParam(page);
 		if (!(isEmpty(page) && isNumeric(page))) {
@@ -38,7 +38,7 @@ public class VisitorController extends ParamValidatChk {
 		} else {
 			pageNo = 1;
 		}
-		//searchStr À¯È¿¼º Ã¼Å©
+		//searchStr Confirm
 		searchStr = getParam(searchStr);
 		if (!isEmpty(searchStr)) searchStr = setLength(searchStr, 20);
 		
@@ -65,10 +65,10 @@ public class VisitorController extends ParamValidatChk {
 	public String visitorSave(
 			  @RequestParam(value="contents", required=true) String contents
 			, ModelMap model) throws SQLException{
-		//contents À¯È¿¼º°Ë»ç
+		//contents ï¿½ï¿½È¿ï¿½ï¿½ï¿½Ë»ï¿½
 		contents = getParam(contents);
 		if (isEmpty(contents)){
-			//¿¡·¯ Ç¥½ÃÇÏ±â
+			//ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½Ï±ï¿½
 			return "/visitor/index";
 		}
 		
@@ -84,7 +84,7 @@ public class VisitorController extends ParamValidatChk {
 		visitor.setWrite_id("rai007");
 		
 		int row = service.insert(visitor);
-		//¼º°ø
+		//ï¿½ï¿½ï¿½ï¿½
 		
 		return "/visitor/index";
 	}
@@ -93,12 +93,12 @@ public class VisitorController extends ParamValidatChk {
 			  @RequestParam(value="no", required=true) String no_str
 			, @RequestParam(value="page", required=false, defaultValue="1") String page
 			, ModelMap model){
-		//no À¯È¿¼º °Ë»ç
+		//no ï¿½ï¿½È¿ï¿½ï¿½ ï¿½Ë»ï¿½
 		no_str = getParam(no_str);
 		if (isEmpty(no_str)){
 			
 		}
-		//page À¯È¿¼º °Ë»ç
+		//page ï¿½ï¿½È¿ï¿½ï¿½ ï¿½Ë»ï¿½
 		
 		return "/visitor/index";
 	}

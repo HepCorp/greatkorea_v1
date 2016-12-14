@@ -6,9 +6,9 @@
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://greatkorea-v1-test.cqbhcjrreapb.ap-northeast-2.rds.amazonaws.com:3306/greatkorea_1" />
+		<property name="url" value="jdbc:mysql://greatkorea-v1.cqbhcjrreapb.ap-northeast-2.rds.amazonaws.com:3306/greatkorea_1" />
 		<property name="username" value="admin" />
-		<property name="password" value="l7MZuhFa5U2eH4" />
+		<property name="password" value="Z1n!aPRnbdy*#P" />
 	</bean>
 	
 	<bean id="sqlMapClient" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
