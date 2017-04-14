@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'NotoSansKR-Light-Alphabetic';
+  src: url('NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),  url('NotoSansKR-Light-Alphabetic.otf')  format('opentype'),
+	     url('NotoSansKR-Light-Alphabetic.woff') format('woff'), url('NotoSansKR-Light-Alphabetic.ttf')  format('truetype'), url('NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

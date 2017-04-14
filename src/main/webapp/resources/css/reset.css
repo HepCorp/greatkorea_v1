@@ -3,10 +3,10 @@
 @font-face {
   	font-family: 'NotoSansLT';
   	src: url('webfont/NotoSansKR-Light-Alphabetic/NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),  
-  	url('webfont/NotoSansKR-Light-Alphabetic.otf')  format('opentype'),
+  	url('webfont/NotoSansKR-Light-Alphabetic/NotoSansKR-Light-Alphabetic.otf')  format('opentype'),
 	url('webfont/NotoSansKR-Light-Alphabetic/NotoSansKR-Light-Alphabetic.woff') format('woff'), 
-	url('webfont/NotoSansKR-Light-Alphabetic.ttf')  format('truetype'), 
-	url('webfont/NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg');
+	url('webfont/NotoSansKR-Light-Alphabetic/NotoSansKR-Light-Alphabetic.ttf')  format('truetype'),
+	url('webfont/NotoSansKR-Light-Alphabetic/NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg');
 
   	font-weight: normal;
   	font-style: normal;
