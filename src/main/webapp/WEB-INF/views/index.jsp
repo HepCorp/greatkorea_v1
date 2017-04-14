@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/views/inc/headerBase.jsp"%>
-<c:set var="browserTitle" value="GREAT KOREA - Welcome" />
-<c:set var="menuTitle" value="Welcome" />
-<c:set var="fileName" value="index.jsp" />
+<c:set var="browserTitle" value="HEP Corp.," />
+<c:set var="menuTitle" value="Main" />
+<c:set var="fileName" value="index.do" />
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,7 +41,7 @@
 	<!-- //main05 -->
 
 	<!-- main06 -->
-	<%--@ include file="/resources/include/main06.jsp"--%>
+	<%@ include file="/resources/include/main06.jsp"%>
 	<!-- //main06 -->
 	<!-- //contents -->
 

@@ -14,10 +14,13 @@
 .loginWrap {
 	width: 100%;
 	height: 40px;
-	background-color: #000;
 	font-family: NotoSansLT;
 }
-
+.loginBox {
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+}
 #login {
 	width: 1024px;
 	height: 40px;
@@ -70,16 +73,15 @@
 	margin: 0 auto;
 }
 
-.greatkorea_logo {
+.header_hep_logo {
 	width: 200px;
 	height: 40px;
 	float: left;
-	margin: 30px 0 0 10px;
+	margin: 20px 0 0 10px;
 }
 
-.greatkorea_logo a img {
-	width: 200px;
-	height: 40px;
+.header_hep_logo a img {
+	width: 90px;
 }
 
 .navList {
@@ -108,8 +110,6 @@
 	font-family: NotoSansRE;
 	color: #484848;
 }
-
-
 .nav dl dt a:hover {
 	border-bottom: 1px solid #333;
 }
@@ -150,16 +150,16 @@
 }
 
 .titleSection {
-   width:1024px;
-   height: 150px;
-   margin: 0 auto;
-   text-align:center;
+	width: 1024px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .titleWrap {
 	position: absolute;
    width: 1024px;
-   height:170px;
+   height:100px;
    margin: 0 auto;
 }
 
@@ -218,14 +218,17 @@
 	background-color: #fff;
 }
 
-#footer .footer_inner{
-	margin:0 auto;
-	width:1024px;
+.footer_inner{
+	margin: 0 auto;
+	width: 1024px;
+	height: 140px;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 #footer .footer_inner address{
 	float:left;
-	width:1024px;
+	width:750px;
 	height:30px;
 	margin-top:20px;
 	font-style:normal;
@@ -234,7 +237,6 @@
 #footer .footer_inner p:nth-of-type(1){
 	float:left;
 	font-weight:bold;
-	margin-top:20px;
 }
 
 #footer .footer_inner p{
@@ -243,99 +245,27 @@
 
 #footer .footer_inner ul{
 	float:right;
+	width: 207px;
+	height: 80px;
+	bottom: 30px;
+	margin-top: -45px;
+	vertical-align: middle;
 }
 
 #footer .footer_inner ul li:nth-of-type(3){
-	font-weight:bold;
+	width: 25px;
 }
 
 #footer .footer_inner ul li{
 	display:inline;
 	margin-right:10px;
 }
+#footer .footer_inner ul li img {
+	width: 40px;
+}
+#footer .footer_inner ul li:nth-child(3) img {
+	width: 30px;
+}
 
 /* //footer */
 
-/* access_terms */
-.access_div{
-	position:absolute;left:30%;top:25%;
-	width:700px;
-	height:450px;
-	margin:0 auto;
-	border-radius:30px;
-	background-color:#fff;
-	text-align:left;
-	padding:20px 0;
-}
-
-.access_div p{
-	position:absolute;right:20px;top:15px;
-}
-
-.access_div .access_inner{
-	width:80%;
-	margin:0 auto;
-}
-
-
-.access_div .access_inner .text ul{
-	height:300px;
-	width:100%;
-	overflow: auto;
-	font-size:12px;
-	text-align:left;
-}
-
-.access_div .access_inner section{
-	height:300px;
-	padding:20px;
-	border:1px solid #ccc;
-}
-
-.access_div .access_inner section .text span{
-	font-weight:bold;
-	font-size:15px;
-}
-/* access_terms //*/
-
-/* privacy_policy */
-.access_div{
-	position:absolute;left:30%;top:25%;
-	width:700px;
-	height:450px;
-	margin:0 auto;
-	border-radius:30px;
-	background-color:#fff;
-	text-align:left;
-	padding:20px 0;
-}
-
-.access_div p{
-	position:absolute;right:20px;top:15px;
-}
-
-.access_div .access_inner{
-	width:80%;
-	margin:0 auto;
-}
-
-
-.access_div .access_inner .text ul{
-	height:320px;
-	width:100%;
-	overflow: auto;
-	font-size:12px;
-	text-align:left;
-}
-
-.access_div .access_inner section{
-	height:350px;
-	padding:20px;
-	border:1px solid #ccc;
-}
-
-.access_div .access_inner section .text span{
-	font-weight:bold;
-	font-size:15px;
-}
-/* privacy_policy //*/

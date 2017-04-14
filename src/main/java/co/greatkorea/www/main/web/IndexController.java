@@ -9,7 +9,11 @@ public class IndexController {
 
 	@RequestMapping(value="/")
 	public String mainView(){
-		return "/index";
+		return "redirect:/index.do";
 	}
 
+	@RequestMapping(value="/index.do")
+	public String index(){
+		return "/index";
+	}
 }
