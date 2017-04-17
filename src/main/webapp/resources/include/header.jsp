@@ -5,7 +5,7 @@
 <meta name="Generator" CONTENT="webstorm & sts3.7.0">
 <meta name="Author" CONTENT="SoftInfraware in HEP"> 
 <meta name="Keywords" CONTENT="해커, 해커양성, 화이트해커, 해커교육, 해킹">
-<meta name="Description" CONTENT="헤프(HEP)는 해커교육프로그램(Hacker Education Program)의 약자로서, 기업 및 공공, 금융 등 다양한 산업분야의 해킹보안 직무에 필요한 실전화이트해커양성을 위한 학습친화형 교육훈련 프로그램 및 인재를 양성한다는 의미를 내재하고 있습니다.">
+<meta name="Description" CONTENT="HEP (Hacker Education Program)">
 <meta name="Copyright" CONTENT="ⓒHEP Corp., All Rights Reserved.">
 <meta name="Subject" CONTENT="기업소개">
 <meta name="Title" CONTENT="${browserTitle }">
