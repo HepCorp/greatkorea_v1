@@ -5,11 +5,11 @@
 <meta name="Generator" CONTENT="webstorm & sts3.7.0">
 <meta name="Author" CONTENT="SoftInfraware in HEP"> 
 <meta name="Keywords" CONTENT="해커, 해커양성, 화이트해커, 해커교육, 해킹">
-<meta name="Description" CONTENT="HEP (Hacker Education Program)">
+<meta name="Description" CONTENT="해프, HEP (Hacker Education Program)">
 <meta name="Copyright" CONTENT="ⓒHEP Corp., All Rights Reserved.">
 <meta name="Subject" CONTENT="기업소개">
 <meta name="Title" CONTENT="${browserTitle }">
-<meta name="Publisher" CONTENT="(주)헤프">
+<meta name="Publisher" CONTENT="주식회사 헤프">
 <meta name="Other Agent" CONTENT="SoftInfraware in HEP">
 <meta name="Classification" CONTENT="IT">
 <meta name="Reply-To(Email)" CONTENT="support@hep.re.kr">

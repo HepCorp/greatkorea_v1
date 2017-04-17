@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/views/inc/headerBase.jsp"%>
-<c:set var="browserTitle" value="HEP Corp.," />
+<c:set var="browserTitle" value="주식회사 헤프" />
 <c:set var="menuTitle" value="Main" />
 <c:set var="fileName" value="index.do" />
 <!DOCTYPE html>
