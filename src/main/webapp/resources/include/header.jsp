@@ -5,7 +5,7 @@
 <meta name="Generator" CONTENT="webstorm & sts3.7.0">
 <meta name="Author" CONTENT="SoftInfraware in HEP"> 
 <meta name="Keywords" CONTENT="해커, 해커양성, 화이트해커, 해커교육, 해킹">
-<meta name="Description" CONTENT="해프, HEP (Hacker Education Program)">
+<meta name="Description" CONTENT="헤프, HEP (Hacker Education Program)">
 <meta name="Copyright" CONTENT="ⓒHEP Corp., All Rights Reserved.">
 <meta name="Subject" CONTENT="기업소개">
 <meta name="Title" CONTENT="${browserTitle }">
@@ -19,10 +19,10 @@
 <meta name="Distribution" CONTENT="HEP Corp.,">
 
 <meta property="og:title" content="${menuTitle }">
-<meta property="og:site_name" content="그레이트 코리아 GREAT KOREA">
-<meta property="og:type" content="그레이트 코리아 GREAT KOREA">
-<meta property="og:url" content="http://www.greatkorea.co">
-<meta property="og:description" content="그레이트 코리아 GREAT KOREA">
+<meta property="og:site_name" content="${browserTitle }">
+<meta property="og:type" content="주식회사 헤프 회사소개">
+<meta property="og:url" content="http://www.hep.re.kr">
+<meta property="og:description" content="헤프, HEP (Hacker Education Program)">
 
 <link rel="canonical" href="http://www.hep.re.kr">
 <link rel="stylesheet" href="<c:url value="/resources/css/reset.css" />" />
